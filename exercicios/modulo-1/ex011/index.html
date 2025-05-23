@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídia em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Teste abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+    <p>
+        <picture>
+            <source media="(min-width: 1050px)" srcset="imagens/foto-g.png" type="image/png">
+            <source media="(min-width: 750px)" srcset="imagens/foto-m.png" type="image/png">
+            <img src="imagens/foto-p.png" alt="Imagem Flexível">
+        </picture>
+    </p>
+    <p>
+        <picture>
+            <source media="(min-width: 1550px)" srcset="imagens/teste-g.jpg" type="image/jpg">
+            <source media="(min-width: 1050px)" srcset="imagens/teste-gm.jpg" type="image/jpg">
+            <source media="(min-width: 750px)" srcset="imagens/teste-m.jpg" type="image/jpg">
+            <img src="imagens/teste-p.jpg" alt="Imagem Flexível">
+        </picture>
+    </p>
+
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5</p>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/evil streets-mk2.mp3" type="audio/mpeg">
+        <source src="midia/evil streets-mk2.ogg" type="audio/ogg">
+        <p>Se o não carregar, <a href="midia/midia.zip" download="midia.zip" type="application/zip">clique aqui e baixe o arquivo</a>.</p>
+    </audio>
+    <audio preload="metadata" autoplay controls>        
+        <source src="midia/just dance - patrick patrikios.mp3" type="audio/mpeg">
+        <source src="midia/just dance - patrick patrikios.ogg" type="audio/ogg">
+        <p>Se o não carregar, <a href="midia/midia.zip" download="midia.zip" type="application/zip"">clique aqui e baixe o arquivo</a>.</p>
+    </audio>
+    <audio preload="metadata" autoplay controls>        
+        <source src="midia/move out - mk2.mp3" type="audio/mpeg">
+        <source src="midia/move out - mk2.ogg" type="audio/ogg">
+        <p>Se o não carregar, <a href="midia/midia.zip" download="midia.zip" type="application/zip">clique aqui e baixe o arquivo</a>.</p>
+    </audio>
+    <p>Se o player não carregar, clique aqui e <a href="midia/midia.zip" download="midia.zip" type="application/zip">baixe o arquivo</a>.</p>
+</body>
+</html>

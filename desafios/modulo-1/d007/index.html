@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem Flexível</title>
+</head>
+<body>
+    <h1>Imagem Flexível</h1>
+    <p>Você está vendo a imagem completa? Experimente ampliar o tamanho da sua janela para aproveitar a melhor experiência &#x1F92F;</p>
+
+    <picture>
+        <source media="(min-width: 1050px)" srcset="imagens/foto-g.jpg" type="image/jpeg">
+        <source media="(min-width: 850px)" srcset="imagens/foto-m.jpg" type="image/jpeg">
+        <img src="imagens/foto-p.jpg" alt="Mulher alimentando pombos em uma parque">
+    </picture>
+    <p>Foto de <a href="https://unsplash.com/pt-br/@fladsgn?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Flaviu Costin</a> na <a href="https://unsplash.com/pt-br/fotografias/uma-mulher-sentada-em-um-banco-de-parque-cercada-por-pombos-QE-ycrug8nI?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></p>
+</body>
+</html>

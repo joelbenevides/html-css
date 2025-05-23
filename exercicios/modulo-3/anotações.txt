@@ -1,0 +1,11 @@
+Módulo 3
+
+CP18-A01
+
+23/05/25
+
+Repositório Local = Git
+Repositório Remoto = Github
+
+	Onde será guardada as versões dos exercícios e
+posteriormente as versões dos sites.

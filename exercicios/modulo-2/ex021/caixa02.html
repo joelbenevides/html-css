@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            background-color: darkgrey;
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 1px 10px;
+        }
+
+        header > h1 {
+            background-color: lightgray;
+            padding: 2px;
+            width: 130px;
+        }
+
+        nav {
+            background-color: hsl(0, 0%, 35%);
+            padding: 2px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+        }
+
+        nav > a {
+            font-weight: bolder;
+            color: white;
+            text-decoration: none;
+            padding-right: 5px;
+            text-shadow: 1px 1px 2px black;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+            color: lightgray;
+            cursor: pointer;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 1px 1px 7px black;
+            border-radius: 10px 1px;
+        }
+
+        #noticias > p {
+            font-weight: bold;
+            text-shadow: 1px 1px rgba(0, 0, 0, 0.4);
+            background-color: lightgray;
+            padding: 2px;
+            width: 220px;
+
+        }
+
+        aside > p {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: lightgray;
+            text-align: end;
+            padding-right: 5px;
+
+        }
+
+        footer > p {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin: 10px 0px;
+        }
+
+        .botao {
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;
+            background-color: hsla(0, 0%, 35%, 0.5);
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+        }
+
+        .botao > div {
+            text-align: center;
+            padding: 10px 0px;
+            font-size: 0.95em;
+        }
+
+        .botao > div > a {
+            text-decoration: none;
+            color: rgba(255, 255, 255, 0.5);
+            text-shadow: 1px 1px 2px black;
+            font-weight: bolder;
+            cursor: pointer;
+        }
+
+        .botao > div > a:hover {
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 id="topo">Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="noticias">
+            <p>Esportes Política Tecnologia</p>
+        </section>
+        <section>
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit in debitis necessitatibus possimus velit nulla? Asperiores saepe sunt, voluptatibus et ex molestias, reprehenderit nulla vero ipsa quam accusamus dolore dolorum!</p>
+                <aside>
+                    <p>Aritigo escrito por José da Silva</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo CursoemVídeo</p>
+        <div class="botao">
+            <div><a href="#topo">Topo</a></div>
+        </div>
+    </footer>
+</body>
+</html>
