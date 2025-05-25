@@ -21,4 +21,4 @@ Aula 06
 	Usar o "qr-code-generator.com" para as páginas
 do github.
 
-Aula 08
+Aula 0
