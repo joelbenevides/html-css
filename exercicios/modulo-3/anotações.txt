@@ -9,3 +9,16 @@ Repositório Remoto = Github
 
 	Onde será guardada as versões dos exercícios e
 posteriormente as versões dos sites.
+
+Aula 05
+
+	Apartir de agora, vamos modificar os códigos
+abrindo pelo Github para facilitar o envio para
+o repositório remoto.
+
+Aula 06
+
+	Usar o "qr-code-generator.com" para as páginas
+do github.
+
+Aula 08
