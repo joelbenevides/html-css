@@ -21,4 +21,27 @@ Aula 06
 	Usar o "qr-code-generator.com" para as páginas
 do github.
 
-Aula 0
+26/05/25
+
+Aula 09
+
+Clonando Repositórios
+
+	No canto superior direito do repositório tem a
+opção Code em um block verde, após clicar escolha
+"open with github desktop".
+
+Aula 10
+
+Github em outro PC
+
+	Após fazer o login, ir em file>option>git e depois
+clicar no usuário e email, depois salvar. Então
+poderá clonar sem erros.
+	Depois de usar, precisa deixar o computador sem
+nenhum rastro. Comece deixando apenas o github desktop
+aberto e fechando todos os outros, depois em repo-
+sitory>remove e adicione a opção de apagar da lixeira.
+	Depois options>Accounts e deslogar. e ainda em
+options>git e delete os dados e salve.
+	Por último esvazie a lixeira.
