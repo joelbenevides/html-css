@@ -2,3 +2,27 @@
 
 MD3-CP19		[ex022]
 
+Aula 02
+Colocando Imagem no fundo da Página
+
+	Usando a propriedade background-image com a 
+função url, podemos adicionar uma imagem no fundo
+do site.
+CSS
+	div {
+		background-image: url('imagens/imagem.jpg');
+	}
+
+Aula 03
+Colocando Imagem com uma URL
+
+body {
+    background-image: url('https://gustavoguanabara.
+	github.io/html-css/imagens/mascote.png');
+	background-size: 100px 112px;
+}
+
+	A repetição das imagens é Padrão, a não ser que
+mude para background-repeat: no-repeat;. Também
+da para repetir horizontalmente ou verticalmente,
+usando os valores "repeat-x" ou "repeat-y".
