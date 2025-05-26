@@ -1,47 +1,4 @@
-Módulo 3
-
-CP18-A01
-
-23/05/25
-
-Repositório Local = Git
-Repositório Remoto = Github
-
-	Onde será guardada as versões dos exercícios e
-posteriormente as versões dos sites.
-
-Aula 05
-
-	Apartir de agora, vamos modificar os códigos
-abrindo pelo Github para facilitar o envio para
-o repositório remoto.
-
-Aula 06
-
-	Usar o "qr-code-generator.com" para as páginas
-do github.
-
 26/05/25
 
-Aula 09
+MD3-CP19-A01
 
-Clonando Repositórios
-
-	No canto superior direito do repositório tem a
-opção Code em um block verde, após clicar escolha
-"open with github desktop".
-
-Aula 10
-
-Github em outro PC
-
-	Após fazer o login, ir em file>option>git e depois
-clicar no usuário e email, depois salvar. Então
-poderá clonar sem erros.
-	Depois de usar, precisa deixar o computador sem
-nenhum rastro. Comece deixando apenas o github desktop
-aberto e fechando todos os outros, depois em repo-
-sitory>remove e adicione a opção de apagar da lixeira.
-	Depois options>Accounts e deslogar. e ainda em
-options>git e delete os dados e salve.
-	Por último esvazie a lixeira.
