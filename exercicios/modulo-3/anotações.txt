@@ -71,5 +71,24 @@ Valores:
 		
 Shothand Background com os valores na sequência:
 
-background-image, background-repeat,
-background-position, background-attachment.
+color > image > repeat > position > attachment.
+
+Aula 06
+
+background-attachment
+
+	Determina se o fundo vai rolar junto com o
+conteúdo da página ou se vai ficar fixo no lugar,
+como se fosse um papel de parede.
+	
+	Valores:
+- scroll(Padrão): A imagem de fundo rola junto com
+		o conteúdo da página.
+- fixed: A imagem de fundo fica fixa na tela, mesmo
+		rolando a página.
+- local: O fundo rola junto com o conteúdo da área
+		de rolagem do elemento.
+		
+	A combinação do attachment "fixed" com o
+background-size "cover" fica com um resultado muito
+bom.
