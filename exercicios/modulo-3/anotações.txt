@@ -26,3 +26,26 @@ body {
 mude para background-repeat: no-repeat;. Também
 da para repetir horizontalmente ou verticalmente,
 usando os valores "repeat-x" ou "repeat-y".
+
+
+Aula 04									28/05/25
+
+Background-Position
+
+	Aprendendo a posicionar os fundos, a ordem dos
+valores é horizontal depois vertical, os valores
+padrão são "left top".
+
+ex:
+div.bloco {
+	background-image: url('imagens/imagem.jpg');
+	background-position: left bottom;
+}
+
+	os valores horizontais: left center right
+	os valores verticais: top center bottom
+	
+	Importar lembrar que quando for usar imagens
+no body e quiser que ela preencha toda a página
+colocar "height: 97vh;", pois 100vh cria uma rolagem
+na página. vh = view height.
