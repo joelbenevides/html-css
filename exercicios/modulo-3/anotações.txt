@@ -47,8 +47,10 @@ div.bloco {
 	
 	Importar lembrar que quando for usar imagens
 no body e quiser que ela preencha toda a página
-colocar "height: 97vh;", pois 100vh cria uma rolagem
-na página. vh = view height.
+colocar "height: 100vh;", porém é necessário usar
+o asterisco para criar um seletor universal com 
+"box-sizing: border-box;!
+para evitar rolagem na página. vh = view height.
 
 Aula 05
 
@@ -92,3 +94,37 @@ como se fosse um papel de parede.
 	A combinação do attachment "fixed" com o
 background-size "cover" fica com um resultado muito
 bom.
+
+Aula 07
+
+Centralizando divs
+
+	Mesma forma que foi feita em "Vídeos Centralizados"
+no dia 21/05/25. Porém apenas usando <div> sem o <iframe>.
+
+HTML
+<div class="box">
+	<div>
+	
+CSS
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.box {
+	position: relative;
+	max-width: 800px;
+	min-width: 260px;
+	background-color: cor-escolhida;
+	margin: auto;
+}
+.box div {
+	position: relative;
+	max-width: 400px;
+	min-width: 130px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
