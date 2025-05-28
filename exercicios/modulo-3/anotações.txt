@@ -49,3 +49,22 @@ div.bloco {
 no body e quiser que ela preencha toda a página
 colocar "height: 97vh;", pois 100vh cria uma rolagem
 na página. vh = view height.
+
+Aula 05
+
+	É Importante adicionar uma cor no fundo, mesmo
+que adicione uma imagem também, pois caso o seu
+servidor esteja lento o usuário poderá acessar o
+conteúdo enquanto carrega as imagens.
+
+	background-size com o valor "cover", adapta a
+imagem de acordo com o tamanho da tela.
+
+Valores:
+ - auto: Usa o tamanho original da imagem (padrão).
+ - cover: A imagem cobre toda a área do elemento.
+		Pode cortar a imagem.
+ - contain: A imagem é redimensionada para caber
+		inteira dentro do elemento.
+ - largura altura: Define manualmente o tamanho.
+		Ex: 100px 50px ou 50% auto.
