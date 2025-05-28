@@ -68,3 +68,8 @@ Valores:
 		inteira dentro do elemento.
  - largura altura: Define manualmente o tamanho.
 		Ex: 100px 50px ou 50% auto.
+		
+Shothand Background com os valores na sequência:
+
+background-image, background-repeat,
+background-position, background-attachment.
