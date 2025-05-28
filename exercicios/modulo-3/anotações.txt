@@ -52,6 +52,8 @@ o asterisco para criar um seletor universal com
 "box-sizing: border-box;!
 para evitar rolagem na página. vh = view height.
 
+{Imagem do PDF}
+
 Aula 05
 
 	É Importante adicionar uma cor no fundo, mesmo
@@ -67,13 +69,9 @@ Valores:
  - cover: A imagem cobre toda a área do elemento.
 		Pode cortar a imagem.
  - contain: A imagem é redimensionada para caber
-		inteira dentro do elemento.
+		inteira dentro do elemento, sem cortes.
  - largura altura: Define manualmente o tamanho.
 		Ex: 100px 50px ou 50% auto.
-		
-Shothand Background com os valores na sequência:
-
-color > image > repeat > position > attachment.
 
 Aula 06
 
@@ -94,6 +92,10 @@ como se fosse um papel de parede.
 	A combinação do attachment "fixed" com o
 background-size "cover" fica com um resultado muito
 bom.
+
+Shothand Background com os valores na sequência:
+
+color > image > repeat > position > attachment.
 
 Aula 07
 
@@ -121,7 +123,7 @@ CSS
 	margin: auto;
 }
 .box div {
-	position: relative;
+	position: absolute;
 	max-width: 400px;
 	min-width: 130px;
 	top: 50%;
