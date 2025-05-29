@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'passion';
+    src: url(fontes/PassionOne-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'sriracha';
+    src: url(fontes/Sriracha-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font: normal normal 16px Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: black;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header div{
+    padding: 50px;
+}
+
+header h1 {
+    font: normal bolder 7vw 'passion', Impact;
+    text-align: center;
+}
+
+header span {
+    font-size: 10vw;
+}
+
+header p {
+    text-align: center;
+    font-size: 1.05em;
+    letter-spacing: 0.05em;
+}
+
+.padrao {
+    background-color: white;
+    color: black;
+}
+
+.parallax {
+    right: 0;
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#foto1 {
+    background-image: url(imagens/background001.jpg);
+}
+
+#foto2 {
+    background-image: url(imagens/background002.jpg);
+}
+
+.cordel {
+    padding: 60px 0px 60px 30px;
+    white-space: pre-line;
+    font-family: 'sriracha', cursive;
+    font-size: 3.5vw;
+    line-height: 2em;
+}
+
+.junto {
+    margin-top: -60px;
+}

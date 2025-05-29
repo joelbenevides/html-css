@@ -4,5 +4,7 @@ MD3-CP20-A01
 
 Inicio do Desafio012
 
+Um projeto completo usando HTML e CSS
+
 	Criando um Projeto com o cordel do Milton Duarte,
 chamado "Cordel Moderno - Tecnologia do agora".
