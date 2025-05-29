@@ -1,0 +1,8 @@
+29/05/25
+
+MD3-CP20-A01
+
+Inicio do Desafio012
+
+	Criando um Projeto com o cordel do Milton Duarte,
+chamado "Cordel Moderno - Tecnologia do agora".
