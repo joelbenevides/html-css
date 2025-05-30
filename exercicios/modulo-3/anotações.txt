@@ -8,3 +8,12 @@ Um projeto completo usando HTML e CSS
 
 	Criando um Projeto com o cordel do Milton Duarte,
 chamado "Cordel Moderno - Tecnologia do agora".
+
+{red}
+	Projeto Concluído Solo, recorri ao chat gpt apenas
+3 vezes para coisas simples: Espaçamento de letras
+(letter-spacing); Pre-formatação(white-space) e
+a Ferramenta do DevTolls de adicionar sombra que é
+em um quadradinho ao lado da propriedade box-shadow.
+{red}
+

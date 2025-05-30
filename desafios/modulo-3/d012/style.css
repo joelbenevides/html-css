@@ -56,29 +56,55 @@ header p {
     color: black;
 }
 
+article {
+    padding: 60px 0px 60px 30px;
+}
+
 .parallax {
-    right: 0;
-    background-position: right center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 #foto1 {
     background-image: url(imagens/background001.jpg);
+    background-position: right center;
 }
 
 #foto2 {
     background-image: url(imagens/background002.jpg);
+    background-position: left bottom;
+}
+
+.parallax article{
+    box-shadow: inset 5px 5px 15px 0px rgba(0, 0, 0, 0.5);
+}
+
+.parallax p {
+    box-sizing: content-box;
+    width: 42vw;
+    padding: 5px;
+    background-attachment: fixed;
+    text-shadow: 1px 1px 1px black;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .cordel {
-    padding: 60px 0px 60px 30px;
+    padding: 10px 0px;
     white-space: pre-line;
     font-family: 'sriracha', cursive;
     font-size: 3.5vw;
     line-height: 2em;
 }
 
-.junto {
-    margin-top: -60px;
+footer p {
+    text-align: center;
+    padding: 8px;
+    font-size: 1.1em;
+    font-family: Tahoma, sans-serif;
+}
+
+footer span {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
 }
