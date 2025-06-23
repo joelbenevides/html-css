@@ -6,3 +6,26 @@ meu site.
 {red}
 
 Tabelas deve ser usada apenas para mostrar dados!
+
+Hierarquia de Tabelas (simples)
+
+table = tabela
+	table row = linha de tabela
+		table header = cabeçalho de tabela
+		table data = dado de tabela
+		
+Juntando os dados da Tabela
+
+	usando "border-collapse" que tem o valor padrão
+separate, mude para collapse e os dados ficarão juntos.
+
+	Se os dados não forem colocados na hierarquia
+correta eles aparecerão antes ou depois e fora da
+tabela.
+
+{red}
+Tabelas precisam de uma atenção muito grande, por
+isso não devem ser usadas para criação de sites, apenas
+para demonstração de dados.
+{red}
+
