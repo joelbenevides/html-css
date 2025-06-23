@@ -1,0 +1,8 @@
+MD3-CP21-A01		23/06/25
+
+{red}
+Eu não devo usar tabela para criar a estrutura do
+meu site.
+{red}
+
+Tabelas deve ser usada apenas para mostrar dados!
