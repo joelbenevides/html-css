@@ -38,3 +38,10 @@ a propriedade "vertical-align", e no eixo X com a
 "text-align".
 
 vertical-align tem os valores top, middle e bottom.
+
+Aula 04
+
+Dando Semântica as Tabelas
+
+	Usando "thead, tbody e tfoot" principalmente
+nas tabelas grandes, mas também é bom usar nas pequenas.
