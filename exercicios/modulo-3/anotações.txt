@@ -29,4 +29,12 @@ isso não devem ser usadas para criação de sites, apenas
 para demonstração de dados.
 {red}
 
-Aula 03
+Aula 03								25/06/25
+
+Alinhamentos de Tabelas
+
+	As células podem ser alinhadas verticalmente com
+a propriedade "vertical-align", e no eixo X com a 
+"text-align".
+
+vertical-align tem os valores top, middle e bottom.
