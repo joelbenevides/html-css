@@ -45,3 +45,5 @@ Dando Semântica as Tabelas
 
 	Usando "thead, tbody e tfoot" principalmente
 nas tabelas grandes, mas também é bom usar nas pequenas.
+
+Aula 05								10/07/25
