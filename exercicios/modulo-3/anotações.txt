@@ -13,6 +13,10 @@ table = tabela
 	table row = linha de tabela
 		table header = cabeçalho de tabela
 		table data = dado de tabela
+{red}
+OBS: Sempre que for um título usar "th" e sempre que
+for um dado usar "td".
+{red}
 		
 Juntando os dados da Tabela
 
@@ -47,3 +51,18 @@ Dando Semântica as Tabelas
 nas tabelas grandes, mas também é bom usar nas pequenas.
 
 Aula 05								10/07/25
+
+Caption
+		
+	<caption> é uma tag usada para colocar um
+título em uma tabela HTML. Ela aparece geralmente
+acima da tabela e serve para descrever o que a
+tabela mostra.
+
+Escopo de Títulos em tabelas
+
+	Por enquanto vamos usar os valores "col" e "row":
+- col: Significa que o título da célula (<th>) vale
+		para a coluna inteira.
+- row: Significa que o título da célula (<th>) vale
+		para a linha inteira.
