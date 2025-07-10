@@ -23,12 +23,16 @@
             font-size: 1.5em;
             font-weight: bold;
             padding: 10px;
-            background-color: lightgray;
+            background-color: hsl(0, 0%, 73%);
         }
 
         thead, tfoot {
-            background-color: gray;
+            background-color: hsl(0, 0%, 30%);
             color: white;
+        }
+
+        tbody > tr:nth-child(2n) {
+            background-color: hsl(0, 0%, 73%);
         }
 
         td.num {
