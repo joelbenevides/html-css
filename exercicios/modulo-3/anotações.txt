@@ -66,6 +66,10 @@ Escopo de Títulos em tabelas
 		para a coluna inteira.
 - row: Significa que o título da célula (<th>) vale
 		para a linha inteira.
+		
+Aula 06
+		
+Efeito Zebrado
 
 O que é a pseudo-classe :nth-child()		
 	A nth-child() é uma pseudo-classe do CSS usada
@@ -101,3 +105,31 @@ li:nth-child(2) {
 }
 
 Isso pinta "Two" de vermelho ✅
+
+Aula 07								11/07/25
+
+Cabeçalho Fixo
+
+	Muito útil quando se tem muitas colunas. Fazendo
+isso você está fixando o cabeçalho da tabela(<thead>
+ou <th>) no topo da tela enquanto o usuário rola o
+conteúdo da tabela.
+html
+<div class="tabela-wrapper">
+  <table>
+    <thead>
+      <tr>		*É necessário os fechamentos*
+        <th>Nome</th>
+css
+.tabela-wrapper {
+  max-height: 300px;
+  overflow-y: auto;
+  position: relative;
+}
+
+thead th {
+  position: sticky;
+  top: 0;
+  background-color: white; /* importante para cobrir o conteúdo ao rolar */
+  z-index: 1;
+}
