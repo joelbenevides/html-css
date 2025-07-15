@@ -133,3 +133,28 @@ thead th {
   background-color: white; /* importante para cobrir o conteúdo ao rolar */
   z-index: 1;
 }
+
+Aula 08									15/07/25
+
+Mesclagem de Células
+
+	Usando *colspan="valor"* inline podemos expandir
+uma célula para ocupar mais colulas.
+HTML
+	<table>
+		<tr>
+			<td>A</td>
+			<td colspan="2">B</td>
+		</tr>
+	
+	Nesse caso a linha B ocupa o espaço de 2 colunas.
+	
+	Usando *rowspan="valor"* inline podemos expandir
+uma célula para ocupar mais linhas.
+HTML
+	<table>
+		<tr>
+			<td>D</td>
+			<td>E</td>
+			<td rowspan="3">F</td>
+		</tr>
