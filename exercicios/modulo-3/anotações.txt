@@ -158,3 +158,5 @@ HTML
 			<td>E</td>
 			<td rowspan="3">F</td>
 		</tr>
+		
+Desafio 13 parte 1 e 2 concluídos
