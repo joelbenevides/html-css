@@ -1,5 +1,7 @@
 MD3-CP21-A01		23/06/25
 
+EX023
+
 {red}
 Eu não devo usar tabela para criar a estrutura do
 meu site.
@@ -160,3 +162,9 @@ HTML
 		</tr>
 		
 Desafio 13 parte 1 e 2 concluídos
+
+Aula 10								15/07/25
+
+	table004 feito antes de terminar o vídeo, porém
+fiz da forma simples, então ao decorrer do vídeo
+transformei a tabela em complexa, com thead e tbody.
