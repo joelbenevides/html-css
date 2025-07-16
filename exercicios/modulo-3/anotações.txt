@@ -197,4 +197,62 @@ Aula 13								16/07/25
 
 Agrupando Colunas com colgroup
 
-	
+	 O que é a tag <colgroup>
+A tag <colgroup> é usada dentro de uma <table> para
+agrupar uma ou mais colunas, e geralmente serve para
+aplicar estilos diretamente a essas colunas — como
+cor de fundo, largura, borda etc.
+
+Ela não exibe conteúdo, mas ajuda a controlar a
+aparência de colunas inteiras de forma mais organizada.
+
+ex:
+HTML
+<table>
+  <colgroup>
+    <col class="c-name">
+    <col class="c-age">
+    <col class="c-country">
+  </colgroup>
+  <tr>
+    <th>Name</th>
+    <th>Age</th>
+    <th>Country</th>
+  </tr>
+  <tr>
+    <td>Joel</td>
+    <td>25</td>
+    <td>Brazil</td>
+  </tr>
+</table>
+
+CSS
+col.c-name {
+	background-color: lightgreen;
+}
+
+	Dessa forma toda a coluna name ficará com um
+fundo light green.
+
+	Caso queria que várias colunas fiquem com o mesmo
+estilo sem ter que repetir a mesma classe, use o
+parâmetro span="valor". Lembrando que essa forma só
+funciona quando as colunas estão juntas.
+ex:
+HTML
+  <colgroup>
+    <col>
+    <col class="destaque" span="3">
+  </colgroup>
+  
+  <tr>
+    <th>1</th>
+    <th>2</th>
+    <th>3</th>
+    <th>4</th>
+    <th>5</th>
+    <th>6</th>
+  </tr>
+  
+	Nesse caso da coluna 2 à 4 ficaria com a classe
+destaque e poderiam ter estilos diferentes das demais.
