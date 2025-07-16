@@ -168,3 +168,33 @@ Aula 10								15/07/25
 	table004 feito antes de terminar o vídeo, porém
 fiz da forma simples, então ao decorrer do vídeo
 transformei a tabela em complexa, com thead e tbody.
+
+Aula 11								16/07/25
+
+Escopo de Tabela
+
+	Escopos de tabela servem para organizar e dar
+significado aos dados, especialmente para leitores
+de tela e acessibilidade. Eles são definidos com o
+atributo scope nas células de cabeçalho (<th>), e
+ajudam a indicar a que parte da tabela aquele
+cabeçalho se refere.
+
+col:	A célula <th> é título de uma coluna
+row:	A célula <th> é título de uma linha
+colgroup:	O <th> se refere a um grupo de colunas
+rowgroup:	O <th> se refere a um grupo de linhas
+
+Exemplo: ex023/table004.html
+
+Aula 12								16/07/25
+
+Desafio 2
+	
+	Concluído a parte 2 do d13
+	
+Aula 13								16/07/25
+
+Agrupando Colunas com colgroup
+
+	
