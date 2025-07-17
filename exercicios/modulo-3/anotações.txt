@@ -12,9 +12,9 @@ Tabelas deve ser usada apenas para mostrar dados!
 Hierarquia de Tabelas (simples)
 
 table = tabela
-	table row = linha de tabela
-		table header = cabeçalho de tabela
-		table data = dado de tabela
+	(tr)table row = linha de tabela
+		(th)table header = cabeçalho de tabela
+		(td)table data = dado de tabela
 {red}
 OBS: Sempre que for um título usar "th" e sempre que
 for um dado usar "td".
@@ -56,18 +56,10 @@ Aula 05								10/07/25
 
 Caption
 		
-	<caption> é uma tag usada para colocar um
-título em uma tabela HTML. Ela aparece geralmente
-acima da tabela e serve para descrever o que a
-tabela mostra.
-
-Escopo de Títulos em tabelas
-
-	Por enquanto vamos usar os valores "col" e "row":
-- col: Significa que o título da célula (<th>) vale
-		para a coluna inteira.
-- row: Significa que o título da célula (<th>) vale
-		para a linha inteira.
+	<caption> é uma tag usada dentro de <table> para
+colocar um título em uma tabela HTML. Ela aparece
+geralmente acima da tabela e serve para descrever
+o que a tabela mostra.
 		
 Aula 06
 		
@@ -163,6 +155,13 @@ HTML
 		
 Desafio 13 parte 1 e 2 concluídos
 
+{red}
+	Importante Lembrar que a expansão só acontecerá
+quando tiver mais linhas ou colunas para serem
+impurradas para o lado ou preencher a área de a área
+da célula abaixo.
+{red}
+
 Aula 10								15/07/25
 
 	table004 feito antes de terminar o vídeo, porém
@@ -185,6 +184,11 @@ row:	A célula <th> é título de uma linha
 colgroup:	O <th> se refere a um grupo de colunas
 rowgroup:	O <th> se refere a um grupo de linhas
 
+{red}
+	Importante sempre usar o scope nas tags <th>.
+ex: <th scope="valor">
+{red}
+
 Exemplo: ex023/table004.html
 
 Aula 12								16/07/25
@@ -195,7 +199,7 @@ Desafio 2
 	
 Aula 13								16/07/25
 
-Agrupando Colunas com colgroup
+Agrupando Colunas com colgroup		ex023.005
 
 	 O que é a tag <colgroup>
 A tag <colgroup> é usada dentro de uma <table> para
