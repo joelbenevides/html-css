@@ -256,3 +256,15 @@ HTML
   
 	Nesse caso da coluna 2 à 4 ficaria com a classe
 destaque e poderiam ter estilos diferentes das demais.
+
+Aula 14								17/07/25
+
+Tabelas Responsivas
+
+	Quando a tabela ultrapassa o tamanho da tela,
+acontece o problema que é a rolagem lateral, para
+resolver basta envelopar toda a tabela dentro de uma
+<div> e adicionar em CSS um overflow-x= auto; na div,
+e a página ficará normal, apenas a tabela terá rolagem
+lateral.
+
