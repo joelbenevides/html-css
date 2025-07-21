@@ -1,0 +1,74 @@
+MD4-CP22-A01						21/07/25
+
+ex024
+iframe001.html
+
+O que é <iframe>
+
+	A tag <iframe> (inline frame) é usada em HTML para
+inserir outra página web dentro da sua página.
+
+	É como uma janela dentro da página, que carrega
+outro conteúdo — pode ser um site, vídeo, mapa,
+formulário, etc.
+
+ex básico:
+
+<iframe src="https://www.exemplo.com" width="600"
+height="400"></iframe>
+
+👍 Vantagens (Prós):
+✅ Permite incorporar conteúdo externo, como vídeos
+do YouTube, mapas do Google Maps, formulários, etc.
+
+✅ Útil para documentação, pré-visualização de sites, ou ferramentas externas.
+
+✅ Simples de usar — só precisa da URL no src.
+
+
+👎 Desvantagens (Contras):
+⚠️ Pode aumentar o tempo de carregamento da página
+(principalmente se o conteúdo externo for pesado).
+
+⚠️ Problemas de segurança, como ataques do tipo click
+jacking.
+
+⚠️ Muitos sites (como o Instagram ou Facebook)
+bloqueiam uso de iframe por segurança — exibem erro
+ou página em branco.
+
+⚠️ Dificulta acessibilidade e SEO (os robôs de busca
+não leem bem o conteúdo dentro de um <iframe>).
+
+⚠️ Difícil de estilizar por completo — você não 
+consegue alterar o CSS interno da página embutida 
+(a menos que tenha controle sobre ela).
+
+Aula 02
+
+Configurações do iframe
+
+	Adicionar um <a> com link e/ou uma mensagem dentro
+do iframe avisando que o dispositivo não é compativel com
+o conteúdo.
+
+ex:
+    <iframe width="400px" height="400px" src="
+	https://www.cursoemvideo.com" frameborder="0">
+        <a href="https://cursoemvideo.com" target="
+		_blank">CursoemVídeo</a>
+    </iframe>
+	
+	O tamanho padrão de um iframe é 300x150, da para
+mudar usando os parâmetros height e width. Mas pode
+ser personalizado também via CSS.
+
+Parâmetro Scrolling
+
+	usando o scrolling dentro do iframe da para
+configurar alguns valores:
+
+- auto: caso a página seja maior que o iframe terá
+		barra de rolagem.
+- yes:	sempre terá barra de rolagem.
+- no:	nunca terá barra de rolagem.
