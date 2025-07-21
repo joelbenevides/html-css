@@ -47,6 +47,7 @@ consegue alterar o CSS interno da página embutida
 Aula 02
 
 Configurações do iframe
+iframe001.html
 
 	Adicionar um <a> com link e/ou uma mensagem dentro
 do iframe avisando que o dispositivo não é compativel com
@@ -72,3 +73,6 @@ configurar alguns valores:
 		barra de rolagem.
 - yes:	sempre terá barra de rolagem.
 - no:	nunca terá barra de rolagem.
+
+Aula 03
+
