@@ -124,3 +124,59 @@ ex:
         <p>Infelizmente seu navegador não é compatível
 		com esse conteúdo!.</p>
 </iframe>
+
+Aula 06
+
+Inconvenientes do <iframe>
+
+	Durante essa aula, o professor destaca os principais
+contras do uso da tag <iframe>, que incluem:
+
+- Segurança limitada
+
+	1. Clickjacking
+Definição: Técnica que “sequestra” um clique do
+usuário, escondendo elementos maliciosos sob um
+<iframe> transparente.
+
+Proteção: Sites usam headers como X-Frame-Options:
+DENY ou Content-Security-Policy: frame-ancestors
+'none' para evitar que sejam embutidos em iframes
+maliciosos.
+
+2. Same-Origin Policy & sandbox
+Conteúdo de domínios diferentes é isolado por padrão
+— você não pode manipular ou acessar diretamente o
+DOM do conteúdo externo.
+
+	Para maior segurança, o atributo sandbox pode ser
+usado para restringir ainda mais o que pode acontecer
+dentro do iframe:
+
+<iframe src=".."
+  sandbox="allow-scripts"
+  sandbox="allow-same-origin">
+</iframe>
+	Isso impede ações como execução de scripts, envio
+de formulários etc., se essas permissões não estiverem
+explicitamente definidas.
+
+- Problemas de desempenho
+
+	Carregar páginas externas no <iframe> pode deixar
+o site mais lento.
+
+- Compatibilidade restrita
+
+	Muitos sites bloqueiam a exibição em <iframe>
+por políticas de segurança.
+
+- Acessibilidade e SEO prejudicados
+
+	Leitores de tela e motores de busca costumam
+ignorar o conteúdo dentro do iframe.
+
+- Dificuldade de estilização e controle
+
+	Você não consegue alterar o CSS ou comportamento
+interno do iframe (a menos que seja do mesmo domínio).
