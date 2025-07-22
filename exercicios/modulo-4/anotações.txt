@@ -80,6 +80,25 @@ iframe002.html
 Conteúdo local no iframe
 
 Aula 04								22/07/25
-
+iframe003.html
 
 Navegação no iframe
+
+	A ideia é usar o <iframe> como um “visor” dentro
+da página, onde o conteúdo muda dinamicamente ao
+clicar em links — sem abrir nova aba ou sair da
+página.
+
+	Isso funciona com o uso do atributo target nos
+links, e o atributo name no iframe.
+ex:
+
+<!-- O iframe tem um nome -->
+<iframe name="visor"></iframe>
+
+<!-- Esses links abrem dentro do iframe -->
+<a href="pagina1.html" target="visor">Página 1</a>
+<a href="pagina2.html" target="visor">Página 2</a>
+
+	Agora, ao clicar em qualquer link, o conteúdo 
+será carregado dentro do iframe chamado "visor".
