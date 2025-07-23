@@ -134,7 +134,45 @@ contras do uso da tag <iframe>, que incluem:
 
 - Segurança limitada
 
-	1. Clickjacking
+	1. O iframe é como se você convidasse alguém para
+entrar em sua "casa", se você não conhece a "pessoa" e
+suas intenções isso pode ser perigoso, então tome
+muito cuidado. pois nada impede que o dono do site
+que você colocou dentro do iframe altere o código
+e adicione algo que seja malicioso e acabe prejudicando
+os seus viewers.
+
+	2. XSS – Cross-Site Scripting
+🧠 O que é:
+	XSS (Cross-Site Scripting) é um tipo de ataque onde
+um código malicioso (geralmente JavaScript) é
+injetado numa página web.
+
+	O atacante tenta fazer com que outros usuários
+executem scripts sem perceber, roubando dados ou
+alterando o site.
+
+	Se um site não filtrar bem os dados que os usuários
+enviam (como formulários ou comentários), esse script
+pode ser salvo e executado por outros usuários.
+
+🎯 Riscos do XSS:
+Roubo de cookies e sessões
+Redirecionamento para sites falsos
+Exibição de conteúdo falso ou malicioso
+
+	3. Cross-Site (CSRF e embutidos com iframe)
+O termo “Cross-Site” se refere a ações maliciosas
+entre sites diferentes, e pode envolver:
+
+	CSRF (Cross-Site Request Forgery): forçar o navegador 
+da vítima a enviar requisições indesejadas para outro 
+site em que ela já está logada.
+
+	Uso abusivo de <iframe>: carregar um site dentro de 
+outro para enganar o usuário (ex: clickjacking).
+
+	Clickjacking
 Definição: Técnica que “sequestra” um clique do
 usuário, escondendo elementos maliciosos sob um
 <iframe> transparente.
@@ -144,7 +182,7 @@ DENY ou Content-Security-Policy: frame-ancestors
 'none' para evitar que sejam embutidos em iframes
 maliciosos.
 
-2. Same-Origin Policy & sandbox
+	3. Same-Origin Policy & sandbox
 Conteúdo de domínios diferentes é isolado por padrão
 — você não pode manipular ou acessar diretamente o
 DOM do conteúdo externo.
@@ -180,3 +218,62 @@ ignorar o conteúdo dentro do iframe.
 
 	Você não consegue alterar o CSS ou comportamento
 interno do iframe (a menos que seja do mesmo domínio).
+
+Aula 07								23/07/25
+pag004.html	
+iframe004.html
+pag005.html
+iframe005.html
+						*Conteúdo mais avançado*
+
+Tornando iframes mais seguros
+
+	Usando o parâmetro sandbox com valor "sandbox"
+dentro da tag iframe, bloqueamos a captura de dados
+
+	Usando o parâmetro referrerpolicy com valor
+"no-referrer" o navegador não envia nenhuma informação 
+sobre a página de origem (de onde o usuário veio) 
+para o site de destino.
+
+✅ Benefícios de no-referrer
+🛡️ Mais privacidade: o site de destino não sabe de 
+onde o usuário veio.
+
+🔒 Evita exposição de URLs sensíveis (como parâmetros 
+de login, tokens etc.).
+
+🔐 Útil quando você não quer passar dados da sua 
+aplicação para terceiros.
+
+⚠️ Possível impacto:
+Sites de terceiros que dependem do referrer para 
+rastreamento ou autenticação podem bloquear ou 
+recusar o acesso.
+
+Pode quebrar certas integrações se o site remoto 
+espera um referrer válido.
+
+{red}
+	Então sempre que for usar um iframe digite a
+seguinte sequencia de códigos para ter mais segurança:
+
+<iframe ... sandbox="sandbox" referrerpolicy="no-referrer">
+</iframe>
+{red}
+
+Valores sandbox:
+
+sandbox				Forma mais restritiva e segura
+allow-scripts		Permite rodar JavaScript
+allow-forms			Permite envio de formulários
+allow-same-origin	Permite acesso ao mesmo domínio
+allow-popups		Permite abrir pop-ups
+allow-modals		Permite alertas, prompts etc.
+
+{red}
+	Ao usar sandbox com algum dos valores allow...
+todos os outros que não forem permitidos estarão
+bloqueados!.
+{red}
+
