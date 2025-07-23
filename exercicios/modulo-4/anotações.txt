@@ -258,7 +258,8 @@ espera um referrer válido.
 	Então sempre que for usar um iframe digite a
 seguinte sequencia de códigos para ter mais segurança:
 
-<iframe ... sandbox="sandbox" referrerpolicy="no-referrer">
+<iframe ... sandbox="sandbox(ou adicione apenas os 
+'allow' necessários)" referrerpolicy="no-referrer">
 </iframe>
 {red}
 
@@ -277,3 +278,11 @@ todos os outros que não forem permitidos estarão
 bloqueados!.
 {red}
 
+Aula 08
+iframe006.html
+
+Dicas interessantes para iframes
+
+	Nessa aula o professor gustavo guanabara da dicas
+sobre alguns conteúdos úteis que da para usar com
+iframe como: Mapas, vídeos, documentos e etc.
