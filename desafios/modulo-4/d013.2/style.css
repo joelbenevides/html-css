@@ -13,7 +13,12 @@ body {
     background-repeat: no-repeat;
     height: 100vh;
     width: 100vw;
+}
+
+#content {
     position: absolute;
+    height: 100vh;
+    width: 100vw;
 }
 
 nav {
@@ -23,11 +28,11 @@ nav {
 
 a {
     display: block;
-    width: 10vw;
-    height: 10vw;
+    width: 11vh;
+    height: 11vh;
     border-radius: 50%;
     background-color: black;
-    margin: 1vw 1vw 0 0;
+    margin: 2vw 2vw 0 0;
 }
 
 #tela-home {
@@ -65,15 +70,28 @@ li {
 }
 
 #smartphone {
-    position: relative;
+    position: absolute;
     background-image: url(imagens/frame-iphone.png);
-    width: 311px;
-    height: 627px;
-    margin: auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 694px;
+    height: 1400px;
     top: 50%;
-    transform: translateY(-50%);
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 #tela {
-    
+    position: relative;
+    width: 694px;
+    height: 1400px;
+}
+
+iframe {
+    position: absolute;
+    width: 655px;
+    height: 1070px;
+    top: 50%;
+    left: 53.5%;
+    transform: translate(-50%, -50%);
 }
