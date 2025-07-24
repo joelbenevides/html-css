@@ -310,5 +310,6 @@ segunda aula, é onde o Profº organiza o projeto.
 
 Inicio do Projeto-Rede_Sociais
 
-	Código base pronto, só falta as sombras e mudar
-as imagens. Farei isso amanhã!.
+	Código base pronto, só falta colocar os botões
+para acessar os sites que estão na tela do celular
+as sombras e mudar as imagens. Farei isso amanhã!.
