@@ -297,9 +297,8 @@ seguintes para ir conferindo o código do Profº e
 corrigindo o meu caso haja algum erro grave.
 	Pórem iniciarei apenas amanhã!.
 	
-	Redes minhas que usarei: github, youtube jazgames,
-página do Facebook jazgames, projeto living healthy 
-e meu instagram.
+	Redes minhas que usarei: github, projeto living
+healthy.
 
 Aula 02								24/07/25
 
@@ -312,4 +311,11 @@ Inicio do Projeto-Rede_Sociais
 
 	Código base pronto, só falta colocar os botões
 para acessar os sites que estão na tela do celular
-as sombras e mudar as imagens. Farei isso amanhã!.
+e mudar as imagens. Farei isso amanhã!.
+
+Voltando aos trabalhos				25/07/25
+
+	Conclúido o Projeto-Rede_Sociais sozinho, pra
+ficar mais parecido com o do curso teria que adicionar
+algumas animações e sombras, porém irei refazer o
+projeto junto com o Profº para praticar mais.
