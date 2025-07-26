@@ -319,3 +319,12 @@ Voltando aos trabalhos				25/07/25
 ficar mais parecido com o do curso teria que adicionar
 algumas animações e sombras, porém irei refazer o
 projeto junto com o Profº para praticar mais.
+
+Aula 03								26/07/25
+d013.2-cursoemvideo/index.html
+
+	Criando o projeto junto com o Profº, nessa aula
+fizemos as configurações base, e adicionamos algumas
+imagens.
+
+Aula 04
