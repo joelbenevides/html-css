@@ -323,8 +323,23 @@ projeto junto com o Profº para praticar mais.
 Aula 03								26/07/25
 d013.2-cursoemvideo/index.html
 
+Criando a Página Principal
+
 	Criando o projeto junto com o Profº, nessa aula
 fizemos as configurações base, e adicionamos algumas
 imagens.
 
 Aula 04
+home.html
+
+Posicionando o Conteúdo na tela
+
+	Aqui eu vi onde eu acabei fazendo muito diferente,
+fiz um código sem organização e com pouca atenção,
+mas é sempre bom ir relembrando.
+
+Aula 05
+
+Criando os botões de redes sociais
+
+	
