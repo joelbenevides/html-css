@@ -330,7 +330,9 @@ fizemos as configurações base, e adicionamos algumas
 imagens.
 
 Aula 04
+index.html
 home.html
+style.css
 
 Posicionando o Conteúdo na tela
 
@@ -339,7 +341,29 @@ fiz um código sem organização e com pouca atenção,
 mas é sempre bom ir relembrando.
 
 Aula 05
+index.html
+style.css
 
 Criando os botões de redes sociais
 
-	
+	As únicas diferenças do que eu fiz anteriormente
+são as animações, sombras e a organização.
+
+Aula 06
+
+
+Criando as páginas de cada rede
+
+	Nessa aula o projeto foi concluído, na próxima
+será ensinado como criar as imagens com os conteúdos
+das páginas, mas ja fiz solo.
+
+{red}
+	Com essa configuração você remove todas as barras
+de rolagem.
+
+        ::-webkit-scrollbar{
+            width: 0px;
+            height: 0px;
+        }
+{red}
