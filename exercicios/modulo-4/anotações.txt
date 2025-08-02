@@ -367,3 +367,11 @@ de rolagem.
             height: 0px;
         }
 {red}
+
+Aula 07								02/08/25
+
+Personalizando as imagens do projeto
+
+	O Profº ensinou tirando prints da tela do celular
+e passando para o GIMP depois criando uma imagem, 
+eu fiz tirando print da tela com o window  resizer.
