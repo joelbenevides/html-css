@@ -375,3 +375,108 @@ Personalizando as imagens do projeto
 	O Profº ensinou tirando prints da tela do celular
 e passando para o GIMP depois criando uma imagem, 
 eu fiz tirando print da tela com o window  resizer.
+
+MD4-CP24-A01						03/08/25
+form001.html
+
+Criando o primeiro Formulário
+
+	Código base para um formúlário
+	
+<p>Nome: 
+	<input type="text" name="nome" id="nome"></p>
+<p>Sobrenome: 
+	<input type="text" name="sobrenome" id="sobrenome"></p>
+<p><input type="submit" value="Enviar"></p>
+
+Aula 02
+form001.html
+
+Aprimorando Formulários com Label
+
+	Usando a propriedade autocomplete="off", solucionamos
+o problema de aparição de nomes caixa do formulário.
+
+✅ O que é a tag <label> em um formulário?
+	A tag <label> é usada para dar um nome ou descrição
+a um campo de formulário, como caixas de texto,
+seletores, botões etc.
+
+	Ela associa um texto a um campo, tornando o 
+formulário mais claro e mais acessível, principalmente para 
+leitores de tela.
+
+🧠 Benefícios:
+🖱️ Clicar no rótulo ativa o campo correspondente 
+(melhor usabilidade).
+
+♿ Leitores de tela entendem melhor o formulário 
+(acessibilidade).
+
+🔤 Ajuda o usuário a saber exatamente o que preencher.
+
+📌 Três formas de usar <label>:
+1. Como foi ensinado no curso:
+html
+<p><label for="inome">Nome:</label> 
+	<input type="text" name="nome" id="inome"></p>
+<p><label for="isobrenome">Sobrenome:</label> 
+   <input type="text" name="sobrenome" id="isobrenome"></p>
+<p><input type="submit" value="Enviar"></p>
+
+2. Usando for e id (mais comum)
+html
+<label for="email">E-mail:</label>
+<input type="email" id="email">
+
+3. Aninhando o input dentro do label
+html
+<label>
+  E-mail:
+  <input type="email" name="email">
+</label>
+
+	Essa forma também associa o texto ao campo, sem 
+precisar usar for ou id.
+
+Aula 03
+
+Métodos GET e POST
+
+✅ O que são method="get" e method="post" em formulários?
+	O atributo method define como os dados do formulário 
+serão enviados ao servidor quando o usuário clicar 
+em "enviar".
+
+GET:
+	Anexa os dados na URL (?nome=joao)
+quando usar?
+	Quando os dados não são sensíveis e você só quer 
+buscar informações.
+
+POST:
+	Envia os dados no corpo da requisição
+quando usar?
+	Quando os dados são privados ou vão alterar algo 
+(cadastros, login, envio de mensagens etc.)
+
+⚠️ Resumo prático:
+Use GET quando:
+
+Os dados não forem confidenciais
+Você quiser compartilhar ou salvar o link
+A ação não altera dados no servidor
+
+Use POST quando:
+
+Os dados forem sensíveis (senhas, mensagens, cadastro)
+A ação mudar algo no banco de dados
+Houver muitos dados (GET tem limite de tamanho na URL)
+
+{red}
+	Lembrando que o POST não critpografa os dados,
+ele apenas oculta da URL, para criptografar precisa
+aprender trabalhar com https e isso é bem mais avançado,
+e não estudarei isso agora, só depois que terminar
+esse curso.
+{red}
