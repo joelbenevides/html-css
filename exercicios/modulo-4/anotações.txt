@@ -287,7 +287,7 @@ Dicas interessantes para iframes
 sobre alguns conteúdos úteis que da para usar com
 iframe como: Mapas, vídeos, documentos e etc.
 
-MD4-CP23-A01
+MD4-CP23-A01						d013.2
 
 Inicio do Mini Projeto-Rede Sociais
 
@@ -378,6 +378,8 @@ eu fiz tirando print da tela com o window  resizer.
 
 MD4-CP24-A01						03/08/25
 form001.html
+
+									EX025
 
 Criando o primeiro Formulário
 
@@ -529,3 +531,26 @@ name, email, username, current-password, new-password
 
 Valores específicos que ajudam o navegador a entender 
 melhor o tipo de dado
+
+Aula 05
+form003.html
+
+Elementos number month date e time
+
+	Usando o atributo type com valor number na tag
+input quando quiser que apenas número sejam aceitos
+na barra do formulário.
+
+	Quando falamos sobre números podemos usar números
+decimais, como 5.5 temos que usar o atributo step
+com valor 0.5 ou 0.1 e então serão aceitos números
+decimais.
+
+	Podemos também usar os valores month, date ou
+time no atributo type, e usando o atributo value
+com valor por exemplo "2025-08-04" e type ="date"
+a página ja vai ser carregada com essa data.
+
+Aula 06
+
+Compatibilidade com formulários
