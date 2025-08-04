@@ -394,7 +394,7 @@ form001.html
 
 Aprimorando Formulários com Label
 
-	Usando a propriedade autocomplete="off", solucionamos
+	Usando a parâmetro autocomplete="off", solucionamos
 o problema de aparição de nomes caixa do formulário.
 
 ✅ O que é a tag <label> em um formulário?
@@ -483,4 +483,49 @@ esse curso.
 {red}
 
 Aula 04								04/08/25
+cadastro.php
+form002.html
 
+Atributos para input text e password
+
+	Para senhas é necessário usar o parâmetro type
+com valor "password" na tag input.
+	O valor reset no parâmetro type limpa os dados
+que foram digitados no formulário.
+	Quando se trata de dados obrigatórios, é importante
+adicionar o atributo required nas tags input.
+
+🔡 O que são minlength e maxlength na tag <input>
+Os atributos servem para definir limites de caracteres 
+que o usuário pode digitar em campos de formulário.
+
+minlength	Define o mínimo de caracteres obrigatórios
+maxlength	Define o máximo de caracteres permitidos
+
+ex:
+<label for="iusu"> Usuário: </label>
+<input type="text" name="usu" id="iusu" required
+	 minlength="5" maxlength="15">
+	 
+	o parâmetro size define o tamanho da barra de
+dados para cada input. ex: size="10", a barra ficará
+com tamanho para caber 10 caracteres por vez, caso 
+tiver mais de 10 habilitará uma rolagem lateral.
+	placeholder é um parâmetro que define o que
+deve ser digitado na barra em que foi adicionado
+por input. ex:
+
+<input type="text" name="usu" id="iusu" required 
+minlength="5" maxlength="15" placeholder="Digite 
+seu usuário">
+
+✅ O que é o atributo autocomplete no <input>
+	O atributo serve para dizer ao navegador se ele 
+deve sugerir preenchimentos automáticos (baseados em 
+dados já salvos pelo usuário, como nome, e-mail, 
+endereço, senha etc.).
+Exemplo de valores:
+name, email, username, current-password, new-password	
+
+Valores específicos que ajudam o navegador a entender 
+melhor o tipo de dado
