@@ -559,3 +559,7 @@ Compatibilidade com formulários
 	Testando os formulários em diferentes dispositivos
 e navegadores, vemos que modifica um pouco a aparência
 e algumas funções não são compativeis em alguns navegadores.
+
+Aula 07
+
+Formulários com telefone e email
