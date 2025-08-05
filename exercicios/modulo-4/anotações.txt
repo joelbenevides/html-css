@@ -560,7 +560,8 @@ Compatibilidade com formulários
 e navegadores, vemos que modifica um pouco a aparência
 e algumas funções não são compativeis em alguns navegadores.
 
-Aula 07
+Aula 07								05/08/25
+form004.html
 
 Formulários com telefone e email
 
@@ -605,3 +606,65 @@ ex:
 🔤 O que faz o <legend>?
 	A tag <legend> é usada dentro do <fieldset> e 
 funciona como um título para o grupo de campos.
+
+Aula 08
+form005.html
+
+Checkbox e radio
+
+✅ Valores checkbox e radio do atributo type na 
+tag <input>
+
+🔲 type="checkbox"
+	Cria uma caixa de seleção que o usuário pode marcar 
+ou desmarcar.
+
+Pode ser marcada ou desmarcada independentemente.
+
+	Usada quando é possível selecionar várias opções 
+ao mesmo tempo.
+
+<label>
+  <input type="checkbox" name="interesses" value="html"> HTML
+</label>
+
+<label>
+  <input type="checkbox" name="interesses" value="css"> CSS
+</label>
+
+
+🔘 type="radio"
+	Cria um botão de seleção única dentro de um grupo 
+de opções.
+
+{red}
+	O usuário pode escolher apenas uma opção por 
+grupo (name). o atributo name precisa estar igual
+em todas as opções do mesmo grupo quando usamos o 
+type="radio" e usar o atributo value com um valor
+que defina a opção.
+ex: um fieldset sobre Sexo
+<fieldset>
+	<legend>Sexo</legend>
+	<input type="radio" name="sexo" id="isxmax" value="M">
+	<label for="isxmax">Masculino</label>
+	<input type="radio" name="sexo" id="isxfem" value="F">
+	<label for="isxfem">Feminino</label>
+</fieldset>
+{red}
+
+	Quando uma opção é marcada, as outras com o mesmo 
+name são desmarcadas automaticamente.
+
+<label>
+  <input type="radio" name="genero" value="masculino"> Masculino
+</label>
+
+<label>
+  <input type="radio" name="genero" value="feminino"> Feminino
+</label>
+
+Atributo Checked
+
+	Ao usarmos o atributo checked a(as) opção(ões)
+ficam já marcada(as) ao abrir a página.
