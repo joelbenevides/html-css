@@ -563,3 +563,45 @@ e algumas funções não são compativeis em alguns navegadores.
 Aula 07
 
 Formulários com telefone e email
+
+	Com os valores email e tel do atributo type na
+tag input podemos informar ao navegador que esses
+dados estão sendo enviados.
+	Usando o atributo pattern podemos personalizar
+como deve ser digitado um número de telefone.
+ex: pattern="^\(\d{2}\)\d{4,5}-\d{4}$"
+
+	Com esse código acima o navegador só aceitará
+o número com 2 digitos dentro de parênteses seguidos
+de 4 ou 5 números depois um ífem e mais 4 números.
+ex: (81)91234-1234
+
+{red}
+	Estudar mais sobre RegEx(expressões regulares)
+{red}
+
+🧩 O que é a tag <fieldset> em um formulário?
+	A tag <fieldset> é usada para agrupar elementos 
+relacionados dentro de um <form> — como inputs, 
+selects e botões.
+
+	Ela organiza visualmente e dá sentido semântico 
+a partes do formulário, indicando que os campos têm 
+uma função em comum.
+
+ex:
+<form>
+  <fieldset>
+    <legend>Dados Pessoais</legend>
+
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" name="nome">
+
+    <label for="email">E-mail:</label>
+    <input type="email" id="email" name="email">
+  </fieldset>
+</form>
+
+🔤 O que faz o <legend>?
+	A tag <legend> é usada dentro do <fieldset> e 
+funciona como um título para o grupo de campos.
