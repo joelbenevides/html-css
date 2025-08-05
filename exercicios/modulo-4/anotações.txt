@@ -668,3 +668,18 @@ Atributo Checked
 
 	Ao usarmos o atributo checked a(as) opção(ões)
 ficam já marcada(as) ao abrir a página.
+
+Aula 09
+
+Color, range e file
+
+	Todos esses valores são do atributo type.
+	
+Color serve para o usuário escolher uma cor.
+
+Range serve para o usuário escolher um número, que
+inicialmente é de 0 a 100, mas pode ser personalizado
+com um min="" e max="".
+
+File é onde o usuário pode enviar arquivos para o 
+o servidor.
