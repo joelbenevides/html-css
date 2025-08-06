@@ -860,3 +860,33 @@ com script, para calcular a idade.
 		(iano.value)
 	}
 </script>
+
+MD4-CP25-A01
+
+📱 O que são Media Queries em CSS?
+
+	Media Queries são regras do CSS que permitem 
+aplicar estilos diferentes dependendo do tamanho da 
+tela (largura, altura), tipo de dispositivo (celular, tablet, monitor), resolução, e até orientação (paisagem ou retrato).
+
+	Elas são a base do design responsivo, que adapta 
+o site para ficar bonito e funcional em qualquer tela.
+
+🎯 Quando usar?
+
+| Caso                                 | Media Query indicada                  |
+| ------------------------------------ | ------------------------------------- |
+| Ajustar layout para celular          | `max-width: 600px`                    |
+| Exibir ou ocultar elementos          | `display: none` dentro de media query |
+| Mudar tamanhos de fonte, espaçamento | Ideal para leitura em telas pequenas  |
+| Mostrar imagens diferentes           | Combinado com HTML `<picture>` ou CSS |
+
+📌 Dica prática:
+Você pode colocar várias media queries no seu CSS, 
+como por exemplo:
+
+/* Estilo padrão (desktop) */
+
+@media (max-width: 1024px) { /* tablet */ }
+@media (max-width: 768px) {  /* celular em paisagem */ }
+@media (max-width: 480px) {  /* celular em pé */ }
