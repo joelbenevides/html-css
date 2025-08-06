@@ -781,3 +781,82 @@ textarea {
   border-radius: 5px;
   font-size: 16px;
 }
+
+Aula 11
+form008.html
+form009.html
+form010.html
+
+Output em Formulários HTML
+
+✅ O que é a tag <output>?
+	A tag <output> é usada para exibir um resultado 
+calculado, normalmente com a ajuda de JavaScript.
+
+	Ela não recebe entrada do usuário, apenas mostra 
+o resultado de alguma operação feita com valores de 
+outros campos do formulário.
+ex:
+<p>
+	<label for="in1">Número 1: 
+		<input type="number" name="n1" id="in1" 
+		min="0" max="50" oninput="isoma.innerHTML 
+		= Number(in1.value) + Number(in2.value)" 
+		required>
+	</label>
+</p>
+
+<p>
+	<label for="in2">Número 2: 
+		<input type="number" name="n2" id="in2" 
+		min="0" max="50" oninput="isoma.innerHTML 
+		= Number(in1.value) + Number(in2.value)" 
+		required>
+	</label>
+</p>
+
+<p>
+	<label for="isoma">Soma: 
+		<output name="soma" id="isoma">0</output>
+	</label>
+</p>
+
+Esse <output> exibe a soma dos dois números digitados 
+nos inputs anteriores. E cada campo usa o atributo 
+oninput.
+
+Ou seja:
+
+Sempre que o usuário digita um número, a função soma 
+os dois valores (in1 e in2).
+
+O resultado é exibido dentro da tag <output> com o 
+id="isoma".
+
+{red}
+	Output pode ser usado também quando usamos o
+valor range no atributo type dentro do input, para
+demonstrar ao usuário qual o número que está dentro
+do range.
+{red}
+
+ex:
+<label for="inum">Número: 
+	<input type="range" name="num" id="inum" min="0"
+	max="10" value="5" oninput="ival.innerHTML = 
+	Number(inum.value)" required>
+	<output id="ival">5</output>
+</label>
+
+{red}
+	No form010.html foi ensinado um pouco de programação
+com script, para calcular a idade.
+{red}
+
+<script>
+	function calcIdade () {
+		let atual = new Date().getFullYear()
+		iidade.innerHTML = Number(atual) - Number
+		(iano.value)
+	}
+</script>
