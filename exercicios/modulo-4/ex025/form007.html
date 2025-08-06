@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Exemplo de formulário</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <p>
+            <label for="iest">
+                Estado
+                <select name="estado" id="iest">
+                    <option value="SP">São Paulo</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="PE">Pernambuco</option>
+                </select>
+            </label>
+        </p>
+
+        <p>
+            <label for="ijogos">
+                Jogo Favorito: 
+                <select name="jogos" id="ijogos">
+                    <optgroup label="GTAs">
+                        <option value="GTAsa">GTA San Andreas</option>
+                        <option value="GTA5">GTA V</option>
+                        <option value="GTA6">GTA VI</option>
+                    </optgroup>
+                    
+                    <optgroup label="FPS">
+                        <option value="CS">Counter-Strike</option>
+                        <option value="R6">Rainbow 6</option>
+                    </optgroup>
+
+                    <optgroup label="Esportes">
+                        <option value="PES21">Pro Evolution Soccer 2021</option>
+                        <option value="NBA2K23">NBA 2K23</option>
+                        <option value="NBA2K21">NBA 2K21</option>
+                    </optgroup>
+                </select>
+            </label>
+        </p>
+
+        <p>
+            <label for="iprof">Profissão: </label>
+            <input type="text" name="prof" id="iprof" list="lstpro">
+            <datalist id="lstpro">
+                <option>Administrador</option>
+                <option>Contabilista</option>
+                <option>Desenvolvedor</option>
+                <option>Professor</option>
+            </datalist>
+        </p>
+
+        <p>
+            <label for="imsg">Mensagem: </label><br>
+            <textarea name="msg" id="imsg" cols="30" rows="10"></textarea>
+        </p>
+        
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>

@@ -670,6 +670,7 @@ Atributo Checked
 ficam já marcada(as) ao abrir a página.
 
 Aula 09
+form006.html
 
 Color, range e file
 
@@ -683,3 +684,100 @@ com um min="" e max="".
 
 File é onde o usuário pode enviar arquivos para o 
 o servidor.
+
+Aula 10								06/08/25
+form007.html
+
+Select, datalist e textarea
+
+✅ Como funcionam as tags <option> e <optgroup> 
+dentro de <select>
+	A tag <select> é usada para criar listas suspensas 
+(dropdowns) em formulários.
+	Dentro dela, usamos <option> para listar as 
+escolhas disponíveis, e <optgroup> para organizar 
+essas opções em grupos.
+
+🔽 Tag <option>
+Define cada item da lista que o usuário pode escolher.
+ex:
+<select name="cidade">
+  <option value="sp">São Paulo</option>
+  <option value="rj">Rio de Janeiro</option>
+</select>
+
+- O que aparece para o usuário: "São Paulo", "Rio 
+de Janeiro".
+- O que é enviado no formulário: "sp" ou "rj" (valor 
+do atributo value).
+
+📁 Tag <optgroup>
+Serve para dividir as opções em categorias, melhorando 
+a organização e a legibilidade.
+ex:
+    <option value="css">CSS</option>
+  </optgroup>
+
+  <optgroup label="Design">
+    <option value="figma">Figma</option>
+    <option value="xd">Adobe XD</option>
+  </optgroup>
+</select>
+
+- O usuário vê os grupos "Desenvolvimento" e "Design".
+- Cada grupo tem suas próprias opções.
+- O atributo label é obrigatório em <optgroup>.
+
+{red}
+	Você pode usar "selected" dentro de <option> 
+para deixar uma opção marcada por padrão:
+	Também pode usar disabled em <option> ou <optgroup> 
+para desativar opções.
+{red}
+
+✅ O que é <datalist> e list no <input>
+	A tag <datalist> permite criar uma lista de 
+sugestões que aparece enquanto o usuário digita em 
+um campo de entrada (<input>).
+
+	Essas sugestões são apenas ajudas visuais — o 
+usuário ainda pode digitar o que quiser.
+ex:
+<label for="cor">Escolha uma cor:</label>
+<input type="text" id="cor" name="cor" list="cores">
+
+<datalist id="cores">
+  <option value="Vermelho">
+  <option value="Verde">
+  <option value="Azul">
+  <option value="Amarelo">
+</datalist>
+
+📝 O que é a tag <textarea>
+	A tag <textarea> é usada para criar um campo de 
+texto com várias linhas em um formulário — ideal 
+para mensagens, comentários, descrições ou qualquer 
+texto longo que o usuário precise digitar.
+ex:
+<label for="mensagem">Mensagem:</label><br>
+<textarea id="mensagem" name="mensagem" rows="5" cols="30"></textarea>
+
+| Atributo      | O que faz                                              |
+| ------------- | ------------------------------------------------------ |
+| `rows`        | Define a **altura** do campo (em linhas de texto)      |
+| `cols`        | Define a **largura** (em caracteres)                   |
+| `placeholder` | Mostra um texto temporário até o usuário digitar       |
+| `maxlength`   | Limita o número de caracteres                          |
+| `required`    | Torna o preenchimento obrigatório                      |
+| `readonly`    | O campo é visível, mas **não pode ser editado**        |
+| `disabled`    | O campo é desativado e **nem é enviado no formulário** |
+
+🎨 Estilização
+	Por padrão, o <textarea> vem com borda e 
+redimensionador, mas você pode estilizar com CSS:
+textarea {
+  resize: none; /* impede o redimensionamento */
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
