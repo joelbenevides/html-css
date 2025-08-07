@@ -946,3 +946,60 @@ print">
 	Isso aplica estilos somente quando a página for 
 impressa.
 
+Aula 03
+mq002/index.html
+mq002/estilos/style.css
+mq002/estilos/paisagem.css
+mq002/estilos/retrato.css
+
+Múltiplas Media Features
+
+{red}
+	Media Query = Media Types + Media Features
+{red}
+
+✅ Os 4 principais Media Types do CSS
+
+| Media Type | Significado                                           | Quando é usado?                                            |
+| ---------- | ----------------------------------------------------- | ---------------------------------------------------------- |
+| `all`      | Todos os dispositivos                                 | ✅ Padrão — usado quando **não há restrição**               |
+| `screen`   | Dispositivos com tela (monitores, celulares, tablets) | ✅ Usado para a maioria dos sites responsivos               |
+| `print`    | Impressão em papel                                    | 🖨️ Aplicado quando o usuário **imprime a página**         |
+| `speech`   | Leitores de tela para acessibilidade                  | 🧑‍🦯 Usado em navegadores com suporte a voz (pouco comum) |
+
+✅ As media features mais usadas no CSS
+Aqui estão as mais comuns e úteis no dia a dia do 
+design responsivo:
+
+| Media Feature          | O que verifica                                        | Exemplo de uso                        |
+| ---------------------- | ----------------------------------------------------- | ------------------------------------- |
+| `width`                | A **largura exata** da tela ou viewport               | `@media (width: 1024px)`              |
+| `min-width`            | **Mínima largura** da tela (ou maior)                 | `@media (min-width: 768px)`           |
+| `max-width`            | **Máxima largura** da tela (ou menor)                 | `@media (max-width: 600px)`           |
+| `height`               | Altura exata do viewport                              | `@media (height: 800px)`              |
+| `min-height`           | Mínima altura da tela                                 | `@media (min-height: 500px)`          |
+| `max-height`           | Máxima altura da tela                                 | `@media (max-height: 900px)`          |
+| `orientation`          | Se a tela está em **paisagem** ou **retrato**         | `@media (orientation: portrait or landscape)`      |
+| `aspect-ratio`         | Proporção da tela (largura/altura)                    | `@media (aspect-ratio: 16/9)`         |
+| `resolution`           | Resolução da tela (usado para impressão ou retina)    | `@media (min-resolution: 300dpi)`     |
+| `pointer`              | Tipo de ponteiro (fino, grosso ou nenhum)             | `@media (pointer: coarse)`            |
+| `hover`                | Se o dispositivo **suporta hover** (ex: mouse)        | `@media (hover: none)`                |
+| `prefers-color-scheme` | Detecta se o usuário prefere **modo claro ou escuro** | `@media (prefers-color-scheme: dark)` |
+
+🎯 Dica de ouro:
+As mais usadas para design responsivo tradicional são:
+
+- min-width
+- max-width
+- orientation
+- prefers-color-scheme
+
+	Essas quatro já resolvem 90% dos casos de 
+responsividade e adaptação ao usuário.
+
+Exemplo de uso no HTML
+
+<link rel="stylesheet" href="estilos/style.css" media="all">
+<link rel="stylesheet" href="estilos/retrato.css" media="screen and (orientation: portrait)">
+<link rel="stylesheet" href="estilos/paisagem.css" media="screen and (orientation: landscape)">
+
