@@ -1003,3 +1003,10 @@ Exemplo de uso no HTML
 <link rel="stylesheet" href="estilos/retrato.css" media="screen and (orientation: portrait)">
 <link rel="stylesheet" href="estilos/paisagem.css" media="screen and (orientation: landscape)">
 
+Aula 04
+mq002/index.html
+mq002/estilos/style.css
+mq002/estilos/paisagem.css
+mq002/estilos/retrato.css
+
+Seguindo a orientação do dispositivo
