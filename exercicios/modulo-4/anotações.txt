@@ -1010,3 +1010,7 @@ mq002/estilos/paisagem.css
 mq002/estilos/retrato.css
 
 Seguindo a orientação do dispositivo
+
+	Nessa aula fiz apenas algumas linhas de css
+para testar o media features em modo paisagem e retrato
+no celular com o github pages.
