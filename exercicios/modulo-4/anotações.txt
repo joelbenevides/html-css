@@ -890,3 +890,59 @@ como por exemplo:
 @media (max-width: 1024px) { /* tablet */ }
 @media (max-width: 768px) {  /* celular em paisagem */ }
 @media (max-width: 480px) {  /* celular em pé */ }
+
+Aula 02								07/08/25
+mq001/index.html
+mq001/estilos/tela.css
+mq001/estilos/impressora.css
+
+Preparando um site para impressão
+
+🔗 O que é o atributo media na tag <link>?
+O atributo media na tag <link> é usado para aplicar 
+um arquivo CSS somente em determinadas condições de 
+tela, usando o mesmo conceito de media queries.
+
+Ele permite carregar estilos diferentes para diferentes 
+tamanhos de tela, sem precisar escrever todas as 
+regras no mesmo arquivo.
+ex:
+<link rel="stylesheet" href="style.css" media="
+(max-width: 600px)">
+
+Isso significa:
+“Use esse arquivo CSS apenas se a tela tiver até 
+600px de largura.”
+
+🧠 Quando usar o media no <link>?
+Você usa o media quando quer:
+
+Separar os estilos por arquivos (ex: desktop.css, 
+mobile.css)
+
+- Melhorar a performance, carregando só o necessário
+- Organizar melhor o seu projeto
+
+ex com dois arquivos:
+<!-- Estilos padrão (desktop) -->
+<link rel="stylesheet" href="style.css">
+
+<!-- Estilos para dispositivos móveis -->
+<link rel="stylesheet" href="mobile.css" media="
+(max-width: 768px)">
+
+✅ Vantagens:
+| Benefício              | Por quê?                                  |
+| ---------------------- | ----------------------------------------- |
+| 📁 Organização modular | Separa os estilos por dispositivo         |
+| ⚡ Performance          | Evita carregar estilos desnecessários     |
+| 🔄 Mais controle       | Decide exatamente quando o CSS será usado |
+
+🧪 Dica extra:
+Você pode combinar com outros tipos de media:
+<link rel="stylesheet" href="print.css" media="
+print">
+
+	Isso aplica estilos somente quando a página for 
+impressa.
+
