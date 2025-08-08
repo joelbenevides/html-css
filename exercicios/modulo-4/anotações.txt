@@ -997,7 +997,7 @@ As mais usadas para design responsivo tradicional são:
 	Essas quatro já resolvem 90% dos casos de 
 responsividade e adaptação ao usuário.
 
-Exemplo de uso no HTML
+Exemplo de uso no HTML para projetos grandes
 
 <link rel="stylesheet" href="estilos/style.css" media="all">
 <link rel="stylesheet" href="estilos/retrato.css" media="screen and (orientation: portrait)">
@@ -1016,5 +1016,13 @@ para testar o media features em modo paisagem e retrato
 no celular com o github pages.
 
 Aula 05 							08/08/25
+mq003/index.html
+mq003/style.css
 
-Seguindo a orientação do dispositivo
+Media query para Projetos Menores
+
+{red}
+	Dessa forma as configurações de Media Type e 
+Media Features ficam dentro do css e não no HTML
+como no exemplo das aulas anteriores.
+{red}
