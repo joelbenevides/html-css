@@ -1078,3 +1078,36 @@ Iniciando um site mobile first
 primeira versão do site pronta.
 
 Aula 08
+mq004/estilos/style.css
+mq004/estilos/media-query.css
+
+Device breakpoints
+
+	Device breakpoints são pontos de corte definidos 
+em pixels que indicam quando o layout do site deve 
+mudar para se adaptar melhor ao tamanho da tela do 
+usuário.
+
+Em design responsivo, eles são usados dentro de 
+media queries para ajustar fontes, espaçamentos, 
+imagens e estrutura, garantindo boa experiência em 
+celulares, tablets e desktops.
+
+📌 Como funcionam
+Você escolhe larguras específicas (breakpoints) e 
+cria regras no CSS para aplicar estilos diferentes 
+a partir dessas medidas.
+
+{red}
+	Typical Device Breakpoints
+	
+Pequenas Telas: max-width 600px
+Celular: min-width 600px
+Tablet: min-width 768px
+Desktop: min-width 992px
+Grande telas: min-width 1200px
+
+É importante criar uma versão para impressão!
+
+Dados da W3C
+{red}

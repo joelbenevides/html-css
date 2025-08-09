@@ -2,3 +2,84 @@
 
 /* Todas as demais Mídias*/
 
+/* Typical Device Breakpoints
+Pequenas Telas: max-width 600px
+Celular: min-width 600px
+Tablet: min-width 768px
+Desktop: min-width 992px
+Grande telas: min-width 1200px
+
+É importante criar uma versão para impressão!
+
+Dados da W3C
+*/
+
+@media print { /* IMPRESSÃO */
+    * {
+        font-family: 'Courier New', Courier, monospace;
+    }
+        /* background-image desnecessário */
+
+    main {
+        width: 400px;
+        border: 2px solid black;
+    }
+
+    main h1 {        
+        text-shadow: none;
+        color: black;
+    }
+
+    main::after {
+        content: 'Essa impressão foi feita através do site www.abc123.com';
+        font-size: 70%;
+    }
+
+    img#phone { display: none; }
+    img#tablet { display: none; }
+    img#print { display: block; }
+    img#pc { display: none; }
+    img#tv { display: none; }
+}
+
+@media screen and (max-width: 600px) {
+    /* Importante criar uma versão mais simples para telas muito pequenas */
+}
+
+@media screen and (min-width: 600px) {
+    /* Já feito no style.css */
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        background-image: url(../imagens/back-tablet.jpg);
+    }
+
+    img#phone { display: none; }
+    img#tablet { display: block; }
+    img#print { display: none; }
+    img#pc { display: none; }
+    img#tv { display: none; }
+}
+
+@media screen and (min-width: 992px) {
+    body {
+        background-image: url(../imagens/back-pc.jpg);
+    }
+
+    img#phone { display: none; }
+    img#tablet { display: none; }
+    img#print { display: none; }
+    img#pc { display: block; }
+    img#tv { display: none; }
+}
+
+@media screen and (min-width: 1200px) {
+    body {background-image: url(../imagens/back-tv.jpg);}
+
+    img#phone { display: none; }
+    img#tablet { display: none; }
+    img#print { display: none; }
+    img#pc { display: none; }
+    img#tv { display: block; }
+}
