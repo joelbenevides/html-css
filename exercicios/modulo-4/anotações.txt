@@ -896,7 +896,7 @@ mq001/index.html
 mq001/estilos/tela.css
 mq001/estilos/impressora.css
 
-Preparando um site para impressão
+Preparando um site para impressão		ex026
 
 🔗 O que é o atributo media na tag <link>?
 O atributo media na tag <link> é usado para aplicar 
@@ -1028,5 +1028,46 @@ como no exemplo das aulas anteriores.
 {red}
 
 Aula 06								09/08/25
+mq004/index.html
 
 Mobile First – HTML5 e CSS3
+
+	Mobile First é uma abordagem de design e 
+desenvolvimento onde o site ou aplicativo é planejado 
+e construído primeiro para telas pequenas (celulares), 
+e depois adaptado para telas maiores (tablets e 
+desktops).
+
+A ideia é começar simples, garantindo que funcione 
+bem no celular, e depois adicionar melhorias conforme 
+o espaço de tela aumenta.
+
+🧠 Como funciona na prática
+- Começa com o layout para mobile (menor largura 
+de tela, geralmente até 480px ou 600px).
+
+- Prioriza conteúdo essencial e velocidade de 
+carregamento.
+
+- Só depois adiciona elementos extras que funcionam 
+melhor em telas grandes.
+
+✅ Vantagens do Mobile First
+
+| Benefício                        | Por que é importante?                                 |
+| -------------------------------- | ----------------------------------------------------- |
+| 📱 Melhor experiência no celular | Hoje a maioria dos acessos vem de dispositivos móveis |
+| ⚡ Performance                    | Carrega rápido em conexões lentas                     |
+| 🎯 Foco no essencial             | Evita excesso de elementos que poluem a tela pequena  |
+| 🔄 Escalabilidade                | Fica mais fácil adaptar para telas maiores depois     |
+
+{red}
+	Segundo Luke Wroblewski, um projeto seguindo o 
+Mobile First traz mais peso ou confiança aos buscadores 
+como o Google, justamente por alinhar com a prioridade 
+atual das buscas e indexação mobile.
+{red}
+
+Aula 07
+
+Iniciando um site mobile first
