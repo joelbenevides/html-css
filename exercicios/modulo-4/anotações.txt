@@ -1076,3 +1076,5 @@ Iniciando um site mobile first
 
 	Começando o novo exercício de media query,
 primeira versão do site pronta.
+
+Aula 08
