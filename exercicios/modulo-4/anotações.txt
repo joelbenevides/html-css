@@ -1026,3 +1026,7 @@ Media query para Projetos Menores
 Media Features ficam dentro do css e não no HTML
 como no exemplo das aulas anteriores.
 {red}
+
+Aula 06								09/08/25
+
+Mobile First – HTML5 e CSS3
