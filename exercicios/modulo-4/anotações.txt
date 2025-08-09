@@ -1069,5 +1069,10 @@ atual das buscas e indexação mobile.
 {red}
 
 Aula 07
+mq004/estilos/style.css
+mq004/estilos/media-query.css
 
 Iniciando um site mobile first
+
+	Começando o novo exercício de media query,
+primeira versão do site pronta.
