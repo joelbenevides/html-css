@@ -1114,12 +1114,17 @@ Dados da W3C
 
 Aula 09								10/08/25
 mq005/index.html
+mq005/style.css
 
 Exercício menu responsivo
 
 	Iniciando o exercício Mobile First com menu
-responsivo.
+responsivo. Conteúdo principal pronto.
 
 Aula 10
+mq005/index.html
+mq005/style.css
 
 Configurando layout do projeto
+
+	Dando inicio aos códigos CSS.
