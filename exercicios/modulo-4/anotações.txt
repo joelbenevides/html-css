@@ -1111,3 +1111,15 @@ Grande telas: min-width 1200px
 
 Dados da W3C
 {red}
+
+Aula 09								10/08/25
+mq005/index.html
+
+Exercício menu responsivo
+
+	Iniciando o exercício Mobile First com menu
+responsivo.
+
+Aula 10
+
+Configurando layout do projeto
