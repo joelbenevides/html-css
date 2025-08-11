@@ -1099,13 +1099,15 @@ cria regras no CSS para aplicar estilos diferentes
 a partir dessas medidas.
 
 {red}
-	Typical Device Breakpoints
+/*
+Typical Device Breakpoints
 	
 Pequenas Telas: max-width 600px
 Celular: min-width 600px
 Tablet: min-width 768px
 Desktop: min-width 992px
 Grande telas: min-width 1200px
+*/
 
 É importante criar uma versão para impressão!
 
@@ -1243,3 +1245,81 @@ Diferença entre o caractere igual(=).
 {red}
 
 Aula 12
+
+Media queries para outros dispositivos
+
+O código JavaScript:
+
+mudouTamanho();
+
+window.addEventListener('resize', mudouTamanho);
+
+function mudouTamanho() {
+    if (window.innerWidth >= 768) {
+        itens.style.display = 'block';
+    } else {
+        itens.style.display = 'none';
+    }
+}
+🧩 Como funciona
+
+mudouTamanho(); no início → a função é executada 
+logo que a página carrega, ajustando o menu de acordo 
+com a largura inicial da tela.
+
+window.addEventListener('resize', mudouTamanho) → 
+garante que a função seja chamada toda vez que o 
+tamanho da janela mudar.
+
+O menu vai aparecer automaticamente quando a tela 
+for 768px ou mais e esconder quando for menor que 
+isso, mesmo que você já tenha clicado antes no 
+hambúrguer.
+
+function mudouTamanho() { ... }
+Cria uma função chamada mudouTamanho.
+
+O conteúdo dentro das chaves {} será executado toda 
+vez que essa função for chamada (seja manualmente ou 
+via evento resize).
+
+2️⃣ Verificação do tamanho da tela
+
+if (window.innerWidth >= 768) { ... }
+window.innerWidth → retorna a largura interna da 
+janela do navegador em pixels, sem contar a barra 
+de rolagem vertical.
+
+O if verifica se essa largura é maior ou igual a 768px.
+
+Esse número (768) foi escolhido como ponto de corte 
+(breakpoint) para diferenciar telas grandes 
+(tablet/desktop) de telas pequenas (celulares).
+
+3️⃣ Se for maior ou igual a 768px
+
+itens.style.display = 'block';
+Mostra o menu (itens) definindo display: block, 
+deixando todos os links visíveis.
+
+Isso garante que, em telas grandes, o menu sempre 
+fique aberto, sem depender do botão hambúrguer.
+
+4️⃣ Se for menor que 768px
+
+itens.style.display = 'none';
+Esconde o menu (display: none), deixando apenas o 
+ícone do hambúrguer visível.
+
+Isso força o usuário de celular a usar o botão para 
+abrir o menu.
+
+🔄 Resumo do comportamento
+- Checa o tamanho da tela.
+- Mostra o menu se a largura for 768px ou mais.
+- Esconde o menu se for menor que 768px.
+
+Essa função é útil para garantir que o menu sempre 
+volte para o estado certo quando o usuário muda o 
+tamanho da tela, evitando que o menu continue escondido 
+no desktop depois de ter sido fechado no mobile.
