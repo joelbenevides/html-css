@@ -2,6 +2,39 @@
 
 /*
 Paleta de Cores
-
-
+#2E5935
+#2D3C29
+#A6774E
+#401801
 */
+
+:root {
+    --verde: #2E5935;
+    --verde-escuro: #2D3C29;
+    --marron-claro: #A6774E;
+    --marron-escuro: #401801;  
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    background-color: var(--verde-escuro);
+}
+
+section {
+    display: block;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 20px;
+}
