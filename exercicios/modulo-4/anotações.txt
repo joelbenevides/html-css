@@ -1170,3 +1170,76 @@ onclick="clickMenu()">menu</span>
 	Assim, cada clique no ícone alterna o estado 
 do menu. Analisar o exercício completo.
 {red}
+
+📜 Como Funciona o código JavaScript
+
+function clickMenu() {
+    if (itens.style.display == 'block') {
+        itens.style.display = 'none'
+    } else {
+        itens.style.display = 'block'
+    }
+}
+
+1️⃣ Definição da função
+
+- function clickMenu() { ... }
+- function → palavra-chave para criar uma função.
+- clickMenu → nome da função, escolhido pelo desenvolvedor.
+
+O conteúdo dentro das chaves {} será executado toda 
+vez que a função for chamada.
+
+2️⃣ Acesso ao elemento itens
+
+- if (itens.style.display == 'block') { ... }
+- O itens aqui se refere ao id="itens" do HTML:
+
+<menu id="itens"> ... </menu>
+Em navegadores, elementos com id podem ser acessados 
+diretamente pelo nome como variável.
+
+style.display → acessa a propriedade CSS display 
+aplicada diretamente no elemento via JavaScript.
+
+3️⃣ Estrutura condicional if / else
+Se (if) o valor de display for "block" → significa 
+que o menu está visível na tela, então:
+
+itens.style.display = 'none'
+→ Esconde o menu.
+
+Senão (else) → significa que o menu está oculto, então:
+
+itens.style.display = 'block'
+→ Mostra o menu.
+
+4️⃣ Ligação com o clique
+No HTML, o ícone tem:
+
+<span id="burguer" ... onclick="clickMenu()">menu</span>
+O atributo onclick chama a função clickMenu() quando 
+o usuário clica no ícone.
+
+Esse clique aciona o teste (if) e alterna a visibilidade 
+do menu.
+
+🔄 Resumo do processo
+
+- O usuário clica no ícone (<span>).
+- O atributo onclick chama a função clickMenu().
+- O JavaScript verifica se o menu (itens) está visível.
+- Alterna entre display: none e display: block para 
+esconder ou mostrar o menu.
+
+{red}
+Diferença entre o caractere igual(=).
+
+| Símbolo | Função                   | Faz conversão de tipo? |
+| ------- | ------------------------ | ---------------------- |
+| `=`     | Atribui valor            | ❌ Não se aplica        |
+| `==`    | Compara só o valor       | ✅ Sim                  |
+| `===`   | Compara valor **e tipo** | ❌ Não                  |
+{red}
+
+Aula 12
