@@ -1323,3 +1323,6 @@ Essa função é útil para garantir que o menu sempre
 volte para o estado certo quando o usuário muda o 
 tamanho da tela, evitando que o menu continue escondido 
 no desktop depois de ter sido fechado no mobile.
+
+MD4-CP26-A01
+
