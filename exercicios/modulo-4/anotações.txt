@@ -1128,3 +1128,45 @@ mq005/style.css
 Configurando layout do projeto
 
 	Dando inicio aos códigos CSS.
+	
+Aula 11								11/08/25
+mq005/index.html
+mq005/style.css
+
+Criando um menu hambúrguer
+
+🎯 Funcionalidade via JavaScript
+O script define a função clickMenu() que:
+
+Verifica se o menu (itens) está visível (display == 'block').
+
+Se estiver visível, click e esconde (display = 'none').
+
+Se estiver escondido, click e mostra (display = 'block').
+
+	O ícone vem do Google Fonts usando Material 
+Symbols, e o texto "menu" dentro do <span> é convertido 
+em ícone pela fonte.
+
+EX:
+<span id="burguer" class="material-symbols-outlined" 
+onclick="clickMenu()">menu</span>
+
+<menu id="itens">
+	<ul>
+		<li><a href="#">Opção 1</a></li>
+
+<script>
+	function clickMenu() {
+		if (itens.style.display == 'block') {
+			itens.style.display = 'none'
+		} else {
+			itens.style.display = 'block'
+		}
+	}
+</script>
+
+{red}
+	Assim, cada clique no ícone alterna o estado 
+do menu. Analisar o exercício completo.
+{red}
