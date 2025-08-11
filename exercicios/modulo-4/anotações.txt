@@ -302,7 +302,8 @@ healthy.
 
 Aula 02								24/07/25
 
-Organizando o projeto					d013.2
+Organizando o projeto					
+d-projeto_social/
 
 	Antes de começar a fazer sozinho assistirei a
 segunda aula, é onde o Profº organiza o projeto.
@@ -321,7 +322,7 @@ algumas animações e sombras, porém irei refazer o
 projeto junto com o Profº para praticar mais.
 
 Aula 03								26/07/25
-d013.2-cursoemvideo/index.html
+d-projeto_social-cursoemvideo/index.html
 
 Criando a Página Principal
 
@@ -1327,3 +1328,5 @@ no desktop depois de ter sido fechado no mobile.
 MD4-CP26-A01
 
 Inicio do Mini projeto tela de login
+
+Foto de Kenan Turguç: https://www.pexels.com/pt-br/foto/vista-aerea-da-praia-de-areia-com-ondas-31245328/
