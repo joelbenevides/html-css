@@ -1337,7 +1337,10 @@ eu termino.
 
 Continuação do Projeto				12/08/25
 
-
+	Fiz boa parte da primeira versão, mas to com
+problema nos ícones tanto de email quanto de senha.
+	Quando um funciona o outro para de aparecer. Amanhã
+corrigirei isso!.	
 
 
 
