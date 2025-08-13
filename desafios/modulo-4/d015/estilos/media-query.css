@@ -1,2 +1,21 @@
 @charset "UTF-8";
 
+:root {
+    --verde: #2E5935;
+    --verde-escuro: #2D3C29;
+    --marron-claro: #A6774E;
+    --marron-escuro: #401801;  
+}
+
+@media screen and (min-width: 768px) {
+    section {
+        width: 700px;
+        height: 300px;
+    }
+
+    section img {
+        height: 300px;
+        width: fit-content;
+        border-radius: 20px 0 0 20px;
+    }
+}

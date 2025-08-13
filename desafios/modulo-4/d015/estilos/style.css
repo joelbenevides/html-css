@@ -27,11 +27,20 @@ body {
     background-color: var(--verde-escuro);
 }
 
+div#img {
+    height: 200px;
+    background-image: url(../imagens/imagem-p.jpg);
+    background-repeat: no-repeat;
+    overflow: hidden;
+    border-radius: 20px 20px 0 0;
+    
+}
+
 section {
     display: block;
     position: absolute;
     width: 250px;
-    height: 515px;
+    height: 545px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -50,6 +59,10 @@ legend {
     padding: 10px;
 }
 
+legend h1 {
+    font-weight: bolder;
+}
+
 form > p {
     padding: 10px;
     font-size: 0.9em;
@@ -59,16 +72,50 @@ form > p {
     height: 40px;
     background-color: var(--verde-escuro);
     padding: 5px;
-    margin: 10px;
+    margin: 5px 10px;
     border-radius: 5px;
 }
 
 .material-symbols-outlined {
     color: white;
-    margin: auto;
 }
 
-input#entrar,
-input#e-senha {
+.key {
+    color: white;
+    margin: auto;
+    width: 22.5px;
+}
+
+input {
+    width: 180px;
+}
+
+.botao {
+    height: 40px;
+    background-color: var(--marron-claro);
+    padding: 5px;
+    margin: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#botao2 {
+    background-color: white;
+    border: 2px solid var(--marron-claro);
+}
+
+.botao p {
+    text-align: center;
+}
+
+label {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+input#entrar {
     display: none;
 }

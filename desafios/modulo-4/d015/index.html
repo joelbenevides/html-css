@@ -6,16 +6,13 @@
     <title>Projeto Login</title>
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/media-query.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=vpn_key" />
+    <link rel="stylesheet" href="estilos/768.css"  media="screen and (min-width: 768px)">
+    <link rel="stylesheet" href="estilos/992.css" media="screen and (min-width: 992px)">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=person" />
 </head>
 <body>
     <section>
-        <picture>
-            <source media="(min-width: 992px)" srcset="imagens/imagem-g.jpg">
-            <source media="(min-width: 768px)" srcset="imagens/imagem-m.jpg">
-            <img src="imagens/imagem-p.jpg" alt="Imagem de uma Linda Praia">
-        </picture>
+        <div id="img"></div>
         <form action="cadastro.php" method="post" autocomplete="off">
             <legend><h1>Login</h1></legend>
             <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
@@ -27,20 +24,19 @@
             </div>
             <div class="fundo">
                 <label for="senha">
-                    <span class="material-symbols-outlined">vpn_key</span>
+                    <img src="imagens/vpn_key.svg" alt="Chave" class="key">
                     <input type="password" name="senha" id="senha" placeholder="Sua Senha" required>
                 </label>
             </div>
-            <div>
+            <div class="botao">
                 <label for="entrar">
-                    <p>Entrar</p>
+                    <p style="padding-top: 5px; color: white;">Entrar</p>
                     <input type="submit" value="Entrar" id="entrar">
                 </label>
             </div>
-            <div>
+            <div class="botao" id="botao2">
                 <label for="e-senha">
-                    <p>Esqueci a Senha</p>
-                    <input type="submit" value="Esqueci a Senha" id="e-senha">
+                    <a href="e-senha.html"><p style="color: var(--marron-escuro);">Esqueci a Senha &#x1F4E7</p></a>
                 </label>
             </div>
         </form>
