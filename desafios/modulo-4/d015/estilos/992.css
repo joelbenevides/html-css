@@ -1,12 +1,5 @@
 @charset "UTF-8";
 
-:root {
-    --verde: #2E5935;
-    --verde-escuro: #2D3C29;
-    --marron-claro: #A6774E;
-    --marron-escuro: #401801;  
-}
-
 section {
     width: 950px;
     height: 400px;
@@ -16,7 +9,6 @@ div#img {
     height: 400px;
     width: 400px;
     background-image: url(../imagens/imagem-g.jpg);
-    background-repeat: no-repeat;
     margin-left: 550px;
     border-radius: 0 20px 20px 0;
 }
@@ -32,7 +24,6 @@ form {
 input {
     margin-left: 20px;
     width: 420px;
-    height: 32px;
 }
 
 .fundo {
@@ -41,9 +32,6 @@ input {
 
 .botao {
     height: 60px;
-    background-color: var(--marron-claro);
     padding: 20px 5px 5px 5px;
     margin: 10px 10px;
-    border-radius: 5px;
-    cursor: pointer;
 }
