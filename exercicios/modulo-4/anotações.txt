@@ -1326,6 +1326,8 @@ tamanho da tela, evitando que o menu continue escondido
 no desktop depois de ter sido fechado no mobile.
 
 MD4-CP26-A01
+d015/index.html
+d015/style.css
 
 Inicio do Mini projeto tela de login
 
@@ -1336,6 +1338,9 @@ com o profº para ir praticando mais.
 eu termino.
 
 Continuação do Projeto				12/08/25
+d015/index.html
+d015/style.css
+d015/768.css
 
 	Fiz boa parte da primeira versão, mas to com
 problema nos ícones tanto de email quanto de senha.
@@ -1343,10 +1348,11 @@ problema nos ícones tanto de email quanto de senha.
 corrigirei isso!.	
 
 Continuação							13/08/25
+d015/index.html
+d015/style.css
+d015/768.css
+d015/992.css
 
-	
-
-
-
-
-Foto de Kenan Turguç: https://www.pexels.com/pt-br/foto/vista-aerea-da-praia-de-areia-com-ondas-31245328/
+	Terminei o projeto solo, amanhã refarei o projeto
+junto com o Profº para praticar mais e ver outra
+forma de fazer o mesmo projeto.
