@@ -31,7 +31,6 @@ div#img {
     height: 200px;
     background-image: url(../imagens/imagem-p.jpg);
     background-repeat: no-repeat;
-    overflow: hidden;
     border-radius: 20px 20px 0 0;
 }
 

@@ -9,7 +9,6 @@ div#img {
     height: 300px;
     width: 300px;
     background-image: url(../imagens/imagem-m.jpg);
-    background-repeat: no-repeat;
     border-radius: 20px 0 0 20px;
 }
 
