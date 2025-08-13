@@ -33,25 +33,18 @@ div#img {
     background-repeat: no-repeat;
     overflow: hidden;
     border-radius: 20px 20px 0 0;
-    
 }
 
 section {
     display: block;
     position: absolute;
-    width: 250px;
+    width: 300px;
     height: 545px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: white;
     border-radius: 20px;
-}
-
-section img {
-    width: 100%;
-    border-radius: 20px 20px 0 0;
-    margin: auto;
 }
 
 legend {
@@ -87,13 +80,14 @@ form > p {
 }
 
 input {
-    width: 180px;
+    width: 230px;
+    height: 32px;
 }
 
 .botao {
     height: 40px;
     background-color: var(--marron-claro);
-    padding: 5px;
+    padding: 10px 5px 5px 5px;
     margin: 5px 10px;
     border-radius: 5px;
     cursor: pointer;
