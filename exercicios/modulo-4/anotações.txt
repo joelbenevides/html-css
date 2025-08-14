@@ -1325,7 +1325,7 @@ volte para o estado certo quando o usuário muda o
 tamanho da tela, evitando que o menu continue escondido 
 no desktop depois de ter sido fechado no mobile.
 
-MD4-CP26-A01
+MD4-CP26-A01						d015
 d015/index.html
 d015/style.css
 
@@ -1358,12 +1358,20 @@ junto com o Profº para praticar mais e ver outra
 forma de fazer o mesmo projeto.
 
 Aula 01								14/08/25
+d015-cursoemvideo/index.html
+d015-cursoemvideo/style.css				d015.2
+
+Início do projeto tela de login
 
 	Vendo essa aula completa, percebi que coloquei
 o título e o parágrafo dentro do formulário no meu
 projeto solo.
 
 Aula 02
+d015-cursoemvideo/index.html
+d015-cursoemvideo/style.css
+
+Versão mobile firts da tela de login
 
 	Nessa aula o Profº Guanabara fala sobre a quantidade
 de pessoas começaram o curso e quantas continuaram
@@ -1373,6 +1381,11 @@ de 200mil, nesse 4º módulo as aulas tem por volta de
 30-50mil views.
 
 Aula 03
+d015-cursoemvideo/index.html
+d015-cursoemvideo/style.css
+d015-cursoemvideo/media-query.css
+
+Outras media queries para login
 
 	propriedades
 	float
