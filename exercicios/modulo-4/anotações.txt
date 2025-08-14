@@ -1481,3 +1481,37 @@ explica tudo:
 https://developers.google.com/fonts/docs/material_icons?hl=pt-br
 {red}
 
+Aula 05
+d015-cursoemvideo/index.html
+d015-cursoemvideo/style.css
+d015-cursoemvideo/media-query.css
+
+Aplicando estilo ao formulário de login
+
+📌 Estilizando especificamente cada seletor
+
+Isso é um seletor CSS que combina o nome da tag com 
+um seletor de atributo.
+
+	Usando a tag mais o atributo com valor no css
+você especifica quais vai querer estilizar.
+ex:
+css
+input[type=submit] {...}
+
+Isso é um seletor de atributo.
+Significa: "Escolha apenas os elementos que tenham 
+o atributo type com o valor submit".
+
+📌 Exemplo prático
+
+input { /* Aplica para todos os inputs */
+  border: 1px solid black; 
+}
+
+input[type=submit] { /* Só para botões de envio */
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 10px;
+}
