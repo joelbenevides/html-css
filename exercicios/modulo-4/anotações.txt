@@ -1515,3 +1515,32 @@ input[type=submit] { /* Só para botões de envio */
   border: none;
   padding: 10px;
 }
+
+Aula 06
+d015-cursoemvideo/index.html
+d015-cursoemvideo/style.css
+d015-cursoemvideo/media-query.css
+
+Finalizando projeto tela de login
+
+{red}
+	Todas as "transform" e "transition" deve ser
+colocadas no final de cada chaves do código. Pois
+ela vai fazer a animação apenas das configurações
+acima dela.
+{red}
+
+Calculando via CSS
+
+calc() é uma função do CSS que permite fazer contas 
+dentro dos valores das propriedades, combinando medidas 
+diferentes (px, %, em, vh, etc.) em tempo de renderização.
+
+Sintaxe básica
+propriedade: calc(expressão);
+
+
+Operadores permitidos: + - * /
+
+Dica: coloque espaços ao redor de + e - para evitar erros:
+calc(100% - 2rem) ✅ | calc(100%-2rem) ⚠️
