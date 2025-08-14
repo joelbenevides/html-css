@@ -1152,7 +1152,7 @@ Symbols, e o texto "menu" dentro do <span> é convertido
 em ícone pela fonte.
 
 EX:
-<span id="burguer" class="material-symbols-outlined" 
+<span id="burguer" class="material-icons" 
 onclick="clickMenu()">menu</span>
 
 <menu id="itens">
@@ -1387,7 +1387,97 @@ d015-cursoemvideo/media-query.css
 
 Outras media queries para login
 
-	propriedades
-	float
-	transition
-	transition-timing-function
+Novas propriedades usadas nessa aula:
+
+1. float
+
+Função: Faz um elemento “flutuar” para a esquerda 
+ou direita dentro do seu contêiner, permitindo que 
+outros elementos fiquem ao lado dele.
+
+Valores comuns:
+left → flutua à esquerda.
+right → flutua à direita.
+none → padrão, sem flutuação.
+
+2.transition
+
+Função: Cria uma transição suave entre o estado inicial 
+e o estado final de uma propriedade CSS.
+
+Sintaxe geral:
+transition: propriedade duração delay timing-function;
+
+Exemplo:
+
+button {
+  background-color: blue;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: red;
+}
+
+	Aqui, a cor de fundo muda de azul para vermelho 
+suavemente em 0.3 segundos.
+
+3. transition-timing-function
+
+Função: Define o ritmo da transição (como a velocidade 
+muda ao longo do tempo).
+
+Valores comuns:
+
+linear → velocidade constante.
+ease → começa devagar, acelera, depois desacelera (padrão).
+ease-in → começa devagar e acelera.
+ease-out → começa rápido e desacelera.
+ease-in-out → começa e termina devagar.
+cubic-bezier(x1, y1, x2, y2) → curva personalizada.
+
+Exemplo:
+
+div {
+  transition: transform 0.5s ease-in-out;
+}
+
+div:hover {
+  transform: scale(1.2);
+}
+
+Aula 04
+d015-cursoemvideo/index.html
+d015-cursoemvideo/style.css
+d015-cursoemvideo/media-query.css
+
+Criando o formulário de login
+
+	HTML do formulário pronto, falta o css.
+	
+Guia dos ícones do Material Design
+
+	Outra forma de adicionar ícones, é através do
+google fonts. A maneira mais fácil de configurar 
+fontes de ícones para usar em qualquer página da 
+Web é com o Google Fonts. Tudo o que você precisa 
+fazer é incluir uma única linha de HTML:
+
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+	  
+	Depois adicionar na linha do código esse span:
+	
+<span class="material-icons">face</span>
+
+	Onde tem o nome "face", basta colocar o nome do
+ícone. todos os ícones do google fonts estão aqui:
+https://fonts.google.com/icons?selected=Material+Symbols+Outlined:menu:FILL@0;wght@400;GRAD@0;opsz@24&icon.size=24&icon.color=%231f1f1f
+
+{red}
+	Da também para hospedar os ícones localmente,
+do mesmo jeito que hospeda as fontes. Nesse site
+explica tudo:
+https://developers.google.com/fonts/docs/material_icons?hl=pt-br
+{red}
+
