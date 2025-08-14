@@ -1103,10 +1103,10 @@ a partir dessas medidas.
 /*
 Typical Device Breakpoints
 	
-Pequenas Telas: max-width 600px
-Celular: min-width 600px
-Tablet: min-width 768px
-Desktop: min-width 992px
+Pequenas Telas: max-width 599px
+Celular: min-width 600px max-width 767px
+Tablet: min-width 768px max-width 991px
+Desktop: min-width 992px max-width 1199px
 Grande telas: min-width 1200px
 */
 
@@ -1371,4 +1371,10 @@ até aqui, vendo no Youtube as primeiras aulas passam
 de 1M de views, a última do primeiro módulo tem mais
 de 200mil, nesse 4º módulo as aulas tem por volta de
 30-50mil views.
-	
+
+Aula 03
+
+	propriedades
+	float
+	transition
+	transition-timing-function
