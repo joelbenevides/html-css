@@ -868,7 +868,9 @@ MD4-CP25-A01
 
 	Media Queries são regras do CSS que permitem 
 aplicar estilos diferentes dependendo do tamanho da 
-tela (largura, altura), tipo de dispositivo (celular, tablet, monitor), resolução, e até orientação (paisagem ou retrato).
+tela (largura, altura), tipo de dispositivo (celular, 
+tablet, monitor), resolução, e até orientação (paisagem 
+ou retrato).
 
 	Elas são a base do design responsivo, que adapta 
 o site para ficar bonito e funcional em qualquer tela.
@@ -1184,7 +1186,7 @@ function clickMenu() {
     }
 }
 
-1️⃣ Definição da função
+1. Definição da função
 
 - function clickMenu() { ... }
 - function → palavra-chave para criar uma função.
@@ -1193,7 +1195,7 @@ function clickMenu() {
 O conteúdo dentro das chaves {} será executado toda 
 vez que a função for chamada.
 
-2️⃣ Acesso ao elemento itens
+2️. Acesso ao elemento itens
 
 - if (itens.style.display == 'block') { ... }
 - O itens aqui se refere ao id="itens" do HTML:
@@ -1544,3 +1546,7 @@ Operadores permitidos: + - * /
 
 Dica: coloque espaços ao redor de + e - para evitar erros:
 calc(100% - 2rem) ✅ | calc(100%-2rem) ⚠️
+
+Teste do Módulo 4 Concluído nota 100	15/08/25
+
+	Fiz em menos de 4min10s.
