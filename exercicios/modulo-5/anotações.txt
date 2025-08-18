@@ -2,3 +2,26 @@ MD5-CP27-A01						18/08/25
 
 Introdução ao Flexbox
 
+📌 O que é Flexbox?
+
+	O Flexbox (Flexible Box Layout) é um modelo de layout do CSS que facilita a organização de elementos em linhas ou colunas, permitindo que eles se ajustem automaticamente ao espaço disponível.
+
+	Ele é ótimo para criar layouts responsivos, sem precisar usar float, inline-block ou tabelas.
+	
+	Ativando o Flexbox
+	
+	Se esticar vertical mente, os filhos também vão esticar porque a propriedade stretch por padrão vem ativada.
+	
+
+
+Para usar, basta aplicar:
+
+.container { /* PAI */
+  display: flex;
+}
+
+.items {	/* FILHOS */
+	flex:auto
+}
+
+Agora, o .container se torna um flex container(PAI), e todos os elementos dentro dele se tornam flex items [itens flexíveis(FILHOS)].
