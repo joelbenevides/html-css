@@ -1,4 +1,5 @@
 MD5-CP27-A01						18/08/25
+ex027/flex001/index.html
 
 Introdução ao Flexbox
 
@@ -25,3 +26,10 @@ Para usar, basta aplicar:
 }
 
 Agora, o .container se torna um flex container(PAI), e todos os elementos dentro dele se tornam flex items [itens flexíveis(FILHOS)].
+
+Aula 02
+ex027/flex002/index.html
+
+Direções e eixos
+
+flex-direction (conteiner pai)
