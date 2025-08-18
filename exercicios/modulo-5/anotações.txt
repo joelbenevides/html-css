@@ -33,3 +33,25 @@ ex027/flex002/index.html
 Direções e eixos
 
 flex-direction (conteiner pai)
+
+
+1. Eixo principal (main axis)
+
+-	Direção em que os itens são organizados.
+
+-	Controlado por flex-direction:
+
+row → linha (padrão, da esquerda para a direita). Mas pode ser da direita para a esquerda caso o idioma se leia o contrário.
+
+row-reverse → linha invertida.
+
+column → coluna (de cima para baixo).
+
+column-reverse → coluna invertida.
+
+
+2. Eixo cruzado (cross axis)
+
+-	Perpendicular ao eixo principal.
+
+-	Se o flex-direction for row, o eixo cruzado é vertical; se for column, o cruzado é horizontal.
