@@ -56,18 +56,18 @@ column-reverse → coluna invertida.
 
 -	Se o flex-direction for row, o eixo cruzado é vertical; se for column, o cruzado é horizontal.
 
-Aula 03
+Aula 03								19/08/25
 ex027/flex003/index.html
 
 Empacotamento e fluxo
 
 flex-wrap → controla se os itens quebram de linha:
 
--	nowrap (padrão, todos na mesma linha) Não é para quebrar os items dentro do container, mas isso depende do conteúdo dentro dos items.
+-	nowrap: (padrão, todos na mesma linha) Não é para quebrar os items dentro do container, mas isso depende do conteúdo dentro dos items.
 
--	wrap (quebram se necessário) Quando diminuir mais que o tamanho dos items, a caixa vai quebrar na direção do cross-axis.
+-	wrap: (quebram se necessário) Quando diminuir mais que o tamanho dos items, a caixa vai quebrar na direção do cross-axis.
 
--	wrap-reverse (quebram invertido) Diminuindo além do limite, o item que quebrar vai para o lado contrário do cross-axis.
+-	wrap-reverse: (quebram invertido) Diminuindo além do limite, o item que quebrar vai para o lado contrário do cross-axis.
 
 	
 	Shorthand: flex-flow= flex-direction+flex-wrap.
@@ -76,3 +76,36 @@ flex-wrap → controla se os itens quebram de linha:
 {red}
 	Melhor Forma para praticar é ativando o DevTools e mexendo nos valores atravez dele, porque as mudanças são instantaneas.
 {red}
+
+Aula 04
+
+Alinhamentos nos eixos
+
+Configuração para o Container PAI
+
+justify-content vai fazer o alinhamento na direção do main-axis. 
+valores:
+	
+-	flex-start o primeiro item será alinhado com relação ao main-start e o espaço em branco ficará no final do main-end.
+	
+-	flex-end: o último item será alinhado com o main-end e o espaço em branco ficará no main-start.
+	 
+-	center: os items ficarão alinhados no centro do container e os espaços em brancos serão iguais nos main-end e main-start.
+
+-	space-between: o primeiro item ficará colado no main-start, o último ficará no main-end e todos os outros ficarão no meio com um espaço igual entre eles.
+	
+-	space-evenly: os items ficarão alinhados no centro com espaçamentos iguais entre os main-start, main-end e items.
+	
+-	space-around: divide o espaço do container para a quantidade de items em tamanhos iguais e alinha os items no centro desse tamanho dividido.
+
+
+align-items vai fazer o alinhamento na direção do cross-axis.
+valores:
+
+-	stretch: padrão, ao aumentar o tamanho do cross-axis, ele estica também os items.
+
+-	flex-start: alinha os items com o cross-start e cria um espaço até o cross-end.
+
+-	flex-end: alinha os items com o cross-end e cria um espaço até o cross-start.
+
+-	center: centraliza os items com relação ao cross-axis.
