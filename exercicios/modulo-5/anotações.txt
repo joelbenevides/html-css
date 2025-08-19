@@ -1,4 +1,4 @@
-MD5-CP27-A01						18/08/25
+MD5-CP27-A01						18/08/25				EX027
 ex027/flex001/index.html
 
 Introdução ao Flexbox
@@ -55,3 +55,24 @@ column-reverse → coluna invertida.
 -	Perpendicular ao eixo principal.
 
 -	Se o flex-direction for row, o eixo cruzado é vertical; se for column, o cruzado é horizontal.
+
+Aula 03
+ex027/flex003/index.html
+
+Empacotamento e fluxo
+
+flex-wrap → controla se os itens quebram de linha:
+
+-	nowrap (padrão, todos na mesma linha) Não é para quebrar os items dentro do container, mas isso depende do conteúdo dentro dos items.
+
+-	wrap (quebram se necessário) Quando diminuir mais que o tamanho dos items, a caixa vai quebrar na direção do cross-axis.
+
+-	wrap-reverse (quebram invertido) Diminuindo além do limite, o item que quebrar vai para o lado contrário do cross-axis.
+
+	
+	Shorthand: flex-flow= flex-direction+flex-wrap.
+	
+	
+{red}
+	Melhor Forma para praticar é ativando o DevTools e mexendo nos valores atravez dele, porque as mudanças são instantaneas.
+{red}
