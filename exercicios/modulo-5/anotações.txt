@@ -78,6 +78,7 @@ flex-wrap → controla se os itens quebram de linha:
 {red}
 
 Aula 04
+ex027/flex004/index.html
 
 Alinhamentos nos eixos
 
@@ -109,3 +110,11 @@ valores:
 -	flex-end: alinha os items com o cross-end e cria um espaço até o cross-start.
 
 -	center: centraliza os items com relação ao cross-axis.
+
+Aula 05
+ex027/flex005/index.html
+
+Centralização com Flexbox
+
+	Para centralizar os items no main-axis e cross-axis, basta adicionar o valor center em justify-content e align-items.
+	
