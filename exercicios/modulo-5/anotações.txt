@@ -87,7 +87,7 @@ Configuração para o Container PAI
 justify-content vai fazer o alinhamento na direção do main-axis. 
 valores:
 	
--	flex-start o primeiro item será alinhado com relação ao main-start e o espaço em branco ficará no final do main-end.
+-	flex-start: o primeiro item será alinhado com relação ao main-start e o espaço em branco ficará no final do main-end.
 	
 -	flex-end: o último item será alinhado com o main-end e o espaço em branco ficará no main-start.
 	 
@@ -124,5 +124,19 @@ Aula 06
 Alinhamento empacotado
 
 	Align Content alinha os items em relação ao cross-axis quando estão empacotados(flex-wrap: wrap ou wrap-reverse;).
+valores:
 	
-stretch: padrão,
+-	stretch: padrão, ao aumentar o tamanho do cross-axis, ele estica também os items.
+
+-	flex-start: o primeiro item será alinhado com relação ao main-start e o espaço em branco ficará no final do main-end.
+	
+-	flex-end: o último item será alinhado com o main-end e o espaço em branco ficará no main-start.
+	 
+-	center: os items ficarão alinhados no centro do container e os espaços em brancos serão iguais nos main-end e main-start.
+
+-	space-between: o primeiro item ficará colado no main-start, o último ficará no main-end e todos os outros ficarão no meio com um espaço igual entre eles.
+	
+-	space-evenly: os items ficarão alinhados no centro com espaçamentos iguais entre os main-start, main-end e items.
+	
+-	space-around: divide o espaço do container para a quantidade de items em tamanhos iguais e alinha os items no centro desse tamanho dividido.
+
