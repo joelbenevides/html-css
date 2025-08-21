@@ -140,3 +140,6 @@ valores:
 	
 -	space-around: divide o espaço do container para a quantidade de items em tamanhos iguais e alinha os items no centro desse tamanho dividido.
 
+{red}
+Todos essas Propriedades até aqui são para o Container PAI.
+{red}
