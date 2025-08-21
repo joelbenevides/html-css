@@ -118,3 +118,11 @@ Centralização com Flexbox
 
 	Para centralizar os items no main-axis e cross-axis, basta adicionar o valor center em justify-content e align-items.
 	
+
+Aula 06
+
+Alinhamento empacotado
+
+	Align Content alinha os items em relação ao cross-axis quando estão empacotados(flex-wrap: wrap ou wrap-reverse;).
+	
+stretch: padrão,
