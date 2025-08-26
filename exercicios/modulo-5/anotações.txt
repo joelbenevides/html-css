@@ -111,7 +111,7 @@ valores:
 
 -	center: centraliza os items com relação ao cross-axis.
 
-Aula 05
+Aula 05								21/08/25
 ex027/flex005/index.html
 
 Centralização com Flexbox
