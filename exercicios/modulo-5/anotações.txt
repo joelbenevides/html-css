@@ -215,4 +215,97 @@ valores:
 -	Pode ser px, %, etc: caso escolha um valor, esse será o valor máximo que terá cada item, porém caso precise ele irá diminuir até onde der, depois disso caso esteja setado como nowrap, ele irá quebrar o conteúdo.
 
 Aula 09
+ex027/flex010/index.html
+ex027/flex011/index.html
 
+Pode crescer ou diminuir
+
+	flex-shrink é o quanto pode encolher - Propriedade de Item
+valor padrão é 1. 
+	1 significa sim(pode encolher) e 0 significa não(não pode encolher).
+
+-	2: vai ser o duas vezes menor que o item 1. Caso tenha 3 items, um com 0 e os outros dois com 2, o primeiro terá o tamanho do flex-basis e os outros 2 terão encolherão no limite do conteiner e terão tamanhos iguais.
+
+	flex-grow é o quanto pode crescer - Propriedade de Item
+valor padrão é 0. 
+	1 significa sim(pode crescer) e 0 significa não(não pode crescer).
+	
+-	2: vai ser o dobro do item 1. Caso tenha 3 items, um com 0 e os outros dois com 2, o primeiro terá o tamanho do flex-basis e os outros 2 terão crescerão no limite do conteiner e terão tamanhos iguais.
+	
+	flex-grow permite items de valores diferentes!.	
+	
+{red}
+	Com flex-shrink e flex-grow com valor 1, os items ficam totalmente flexiveis ao tamanho do conteiner PAI.
+{red}
+
+
+🔹 Como funciona o cálculo para flex-grow
+
+	O navegador distribui o espaço disponível no container (aquele que sobra depois de aplicar larguras fixas, margens, paddings etc.).
+
+	Esse espaço é dividido em partes proporcionais de acordo com os valores de flex-grow.
+
+👉 O que importa não é o número em si, mas a proporção entre eles.
+
+📊 Exemplo prático
+
+css
+.item1 { flex-grow: 0; } /* não cresce */
+.item2 { flex-grow: 2; } /* cresce */
+.item3 { flex-grow: 6; } /* cresce ainda mais */
+
+
+	Imagine que o container tenha 900px de largura disponíveis depois de aplicar margens e paddings.
+
+Somatório dos flex-grow:
+0 + 2 + 6 = 8 partes.
+
+Distribuição:
+
+Item1 (0) → não recebe espaço extra, só ocupa o tamanho mínimo/base.
+
+Item2 (2) → recebe 2/8 = 25% do espaço disponível.
+
+Item3 (6) → recebe 6/8 = 75% do espaço disponível.
+
+Se o espaço disponível for 800px, por exemplo:
+
+Item2 → 200px
+
+Item3 → 600px
+
+Item1 → apenas o tamanho inicial (sem crescer).
+
+
+🔹 Como funciona o cálculo para flex-shrink
+
+Soma dos flex-shrink = 0 + 2 + 6 = 8 partes.
+
+	Só os itens com valor maior que 0 participam da divisão.
+
+	O espaço que precisa ser removido (150px) será dividido em 2/8 e 6/8.
+
+📊 Distribuição
+
+css
+.item1 { flex-shrink: 0; } /* não encolhe */
+.item2 { flex-shrink: 2; }
+.item3 { flex-shrink: 6; }
+
+
+Item1 (0) → não encolhe, continua com 150px.
+
+Item2 (2/8) → perde 37,5px → fica com 112,5px.
+
+Item3 (6/8) → perde 112,5px → fica com 37,5px.
+
+
+✅ Diferenças importantes
+
+	flex-grow → distribui crescimento (quando sobra espaço).
+
+	flex-shrink → distribui redução (quando falta espaço).
+
+	Um valor maior sempre significa que o item cresce ou encolhe mais em relação aos outros.
+
+	Se o item tiver flex-shrink: 0, ele não diminui nunca, mesmo que os outros precisem encolher mais.
