@@ -197,3 +197,22 @@ ex:
 	<div class="item" style="align-self: stretch;">D</div>
 	<div class="item" style="align-self: flex-start;">E</div>
 </div>
+
+Aula 08
+ex027/flex009/index.html
+
+Tamanho base dos itens
+
+
+flex-basis - Propriedade de Item
+	
+	Altera o tamanho do main-axis do item antes de crescer/encolher.
+
+valores:
+
+-	auto: padrão, tamanho é definido através do conteúdo, quanto mais será maior.
+
+-	Pode ser px, %, etc: caso escolha um valor, esse será o valor máximo que terá cada item, porém caso precise ele irá diminuir até onde der, depois disso caso esteja setado como nowrap, ele irá quebrar o conteúdo.
+
+Aula 09
+
