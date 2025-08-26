@@ -120,6 +120,7 @@ Centralização com Flexbox
 	
 
 Aula 06
+ex027/flex006/index.html
 
 Alinhamento empacotado
 
@@ -143,3 +144,56 @@ valores:
 {red}
 Todos essas Propriedades até aqui são para o Container PAI.
 {red}
+
+Aula 07								26/08/25
+ex027/flex007/index.html
+ex027/flex008/index.html
+
+Anatomia dos itens flexbox
+
+Essas 2 Propriedades Servem para os FILHOS.
+
+Propriedade "ORDER"
+
+	Todo item por padrão tem "order: 0;", a ordem começa com os número negativos depois vai pro 0 e ai vai pros positivos.
+ex:
+-3,-1,0,4,5,10
+
+	A melhor forma para configurar o order, é com css inline.
+ex:
+
+<div class="conteiner">
+	<div class="item" style="order: 5;">A</div>
+	<div class="item" style="order: 3;">B</div>
+	<div class="item" style="order: 1;">C</div>
+	<div class="item" style="order: 7;">D</div>
+	<div class="item" style="order: 6;">E</div>
+	<div class="item" style="order: 4;">F</div>
+	<div class="item" style="order: 2;">G</div>
+</div>
+
+
+Propriedade "Align-Self"
+
+	Essa propriedade é alinhada em relação ao cross-axis e permite sobrescrever o align-items apenas para aquele item.
+valores:
+
+-	auto: padrão, herda o valor determinado no Conteiner PAI.
+
+-	stretch: ao aumentar o tamanho do cross-axis, ele estica também os items.
+
+-	flex-start: alinha os items com o cross-start e cria um espaço até o cross-end.
+
+-	flex-end: alinha os items com o cross-end e cria um espaço até o cross-start.
+
+-	center: centraliza os items com relação ao cross-axis.
+
+ex:
+
+<div class="conteiner">
+	<div class="item" style="align-self: auto;">A</div>
+	<div class="item" style="align-self: flex-end;">B</div>
+	<div class="item" style="align-self: center;">C</div>
+	<div class="item" style="align-self: stretch;">D</div>
+	<div class="item" style="align-self: flex-start;">E</div>
+</div>
