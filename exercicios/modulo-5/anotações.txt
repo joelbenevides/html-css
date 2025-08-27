@@ -309,3 +309,15 @@ Item3 (6/8) → perde 112,5px → fica com 37,5px.
 	Um valor maior sempre significa que o item cresce ou encolhe mais em relação aos outros.
 
 	Se o item tiver flex-shrink: 0, ele não diminui nunca, mesmo que os outros precisem encolher mais.
+	
+	
+	Aula 10
+	
+Simplificando com Flex
+	
+	Shorthand flex - Propriedade para Items
+	
+	ordem: flex-grow > flex-shrink > flex-basis
+	
+ex:
+flex: 0 1 100px;
