@@ -311,7 +311,8 @@ Item3 (6/8) → perde 112,5px → fica com 37,5px.
 	Se o item tiver flex-shrink: 0, ele não diminui nunca, mesmo que os outros precisem encolher mais.
 	
 	
-	Aula 10
+Aula 10							27/08/25
+ex027/flex012/index.html
 	
 Simplificando com Flex
 	
@@ -321,3 +322,15 @@ Simplificando com Flex
 	
 ex:
 flex: 0 1 100px;
+
+| Atalho          | Expansão completa | O que faz                                                               
+| --------------- | ----------------- | ------------------------------------------------------------------------------------------------
+| `flex: initial` | `0 1 auto`        | Padrão: não cresce, pode encolher, base no tamanho do conteúdo.         
+| `flex: auto`    | `1 1 auto`        | Cresce e encolhe conforme espaço, base no conteúdo. É a forma que o conteúdo fica mais flexível.                     |
+| `flex: none`    | `0 0 auto`        | Fixo, sem crescer/encolher. É a forma menos flexível.                                            
+| `flex: 1`       | `1 1 0%`          | Atalho para definir apenas o flex-grow.
+
+
+Aula 11
+
+Menu com Flexbox (Parte1)
