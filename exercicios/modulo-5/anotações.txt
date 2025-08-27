@@ -332,5 +332,13 @@ flex: 0 1 100px;
 
 
 Aula 11
+ex027/flex013-menu_flexbox/index.html
+ex027/flex013-menu_flexbox/style.css
 
 Menu com Flexbox (Parte1)
+
+	Colocando em prática o flexbox criando um menu flexível, vou tentar fazer sozinho antes de ver a próxima aula.
+	
+	Feito o menu solo!
+ex027/flex013-menu_flexbox-solo/index.html
+ex027/flex013-menu_flexbox-solo/style.css
