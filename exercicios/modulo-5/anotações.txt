@@ -342,3 +342,15 @@ Menu com Flexbox (Parte1)
 	Feito o menu solo!
 ex027/flex013-menu_flexbox-solo/index.html
 ex027/flex013-menu_flexbox-solo/style.css
+
+Aula 12
+ex027/flex013-menu_flexbox/index.html
+ex027/flex013-menu_flexbox/style.css
+
+Menu com Flexbox (Parte 2)
+
+Continuando o o mini projeto
+
+Aula 13
+ex027/flex013-menu_flexbox/index.html
+ex027/flex013-menu_flexbox/style.css
