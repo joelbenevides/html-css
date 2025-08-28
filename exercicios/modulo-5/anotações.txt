@@ -356,3 +356,16 @@ ex027/flex013-menu_flexbox/index.html
 ex027/flex013-menu_flexbox/style.css
 
 Menu Concluído!
+
+Aula 14
+ex027/flex014-conteudo_flex/index.html
+ex027/flex014-conteudo_flex/style.css
+
+Conteúdo Flexível (Parte 1)
+
+	Começando o novo mini projeto flexbox, fiz a base do código junto da aula.
+	
+	Agora irei terminar o código solo e depois verei a próxima aula.
+	
+ex027/flex014-conteudo_flex-solo/index.html
+ex027/flex014-conteudo_flex-solo/style.css
