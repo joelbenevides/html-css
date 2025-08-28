@@ -357,7 +357,7 @@ ex027/flex013-menu_flexbox/style.css
 
 Menu Concluído!
 
-Aula 14							28/08/25
+Aula 14									28/08/25
 ex027/flex014-conteudo_flex/index.html
 ex027/flex014-conteudo_flex/style.css
 
