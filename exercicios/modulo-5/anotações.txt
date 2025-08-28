@@ -357,7 +357,7 @@ ex027/flex013-menu_flexbox/style.css
 
 Menu Concluído!
 
-Aula 14
+Aula 14							28/08/25
 ex027/flex014-conteudo_flex/index.html
 ex027/flex014-conteudo_flex/style.css
 
@@ -372,4 +372,8 @@ ex027/flex014-conteudo_flex-solo/style.css
 
 	Concluído o exercicio solo.
 	
+Aula 15
+ex027/flex014-conteudo_flex/index.html
+ex027/flex014-conteudo_flex/style.css
 
+Conteúdo Flexível (Parte 2)
