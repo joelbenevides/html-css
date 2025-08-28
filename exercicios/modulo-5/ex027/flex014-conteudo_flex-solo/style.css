@@ -25,3 +25,31 @@ section.flex-content {
     padding: 20px;
     background-color: darkgray;
 }
+
+article.media-text,
+article.text-media  {
+    display: flex;
+}
+
+article.media-text {
+    flex-flow: row wrap-reverse;
+}
+
+article.text-media {
+    flex-flow: row wrap;
+}
+
+div.text, div.media {
+    border: 1px dotted black;
+}
+
+div.text {
+    flex: 1 0 500px;
+}
+
+div.media {
+    display: flex;
+    justify-content: center;
+    flex: 1 0 500px;
+}
+

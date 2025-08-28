@@ -369,3 +369,7 @@ Conteúdo Flexível (Parte 1)
 	
 ex027/flex014-conteudo_flex-solo/index.html
 ex027/flex014-conteudo_flex-solo/style.css
+
+	Concluído o exercicio solo.
+	
+
