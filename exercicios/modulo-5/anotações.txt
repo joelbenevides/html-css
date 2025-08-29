@@ -124,7 +124,9 @@ ex027/flex006/index.html
 
 Alinhamento empacotado
 
-	Align Content alinha os items em relação ao cross-axis quando estão empacotados(flex-wrap: wrap ou wrap-reverse;).
+	Align-Content alinha os items em relação ao cross-axis quando estão empacotados(flex-wrap: wrap ou wrap-reverse;).
+	
+	Isso pode ser confuso, mas align-content determina o espaçamento entre linhas, enquanto align-items determina como as linhas como um todo são alinhadas dentro do container. Quando há só uma linha, align-content não tem nenhum efeito.
 valores:
 	
 -	stretch: padrão, ao aumentar o tamanho do cross-axis, ele estica também os items.
@@ -379,3 +381,19 @@ ex027/flex014-conteudo_flex/style.css
 Conteúdo Flexível (Parte 2)
 
 	Concluído o Exercício.
+	
+Aula 16								29/08/25
+
+Flexbox Froggy
+
+	Essa Aula passa um site que contém 24 níveis de flexbox.
+	
+https://flexboxfroggy.com/#pt-br
+
+	Concluído os níveis solo.
+	
+Aula 17
+
+Flexbox Froggy (parte 2)
+
+	Respostas dos níveis.
