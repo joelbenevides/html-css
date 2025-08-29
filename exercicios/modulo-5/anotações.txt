@@ -377,3 +377,5 @@ ex027/flex014-conteudo_flex/index.html
 ex027/flex014-conteudo_flex/style.css
 
 Conteúdo Flexível (Parte 2)
+
+	Concluído o Exercício.
