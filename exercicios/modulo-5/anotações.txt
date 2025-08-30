@@ -397,3 +397,19 @@ Aula 17
 Flexbox Froggy (parte 2)
 
 	Respostas dos níveis.
+	
+Aula 18								30/08/25
+
+O que é Grid Layout
+
+	"CSS Grid Layout é um sistema para criação de layouts baseado em uma grade bidimensional e otimizado para design de interfaces de usuário. Nesse modelo de grade, os elementos-filhos do container que defina a grade podem ser posicionados livremente em espaços criados na estrutura, quer ela tinha sido definida com suas dimensões flexíveis ou fixas."
+	
+-	É um modelo de layout bidimensional (funciona em linhas e colunas).
+
+-	Você define um container grid e dentro dele os elementos se organizam automaticamente como células de uma tabela flexível.
+
+✅ Resumo
+
+-	Flexbox é ótimo para 1D (linha ou coluna).
+
+-	Grid é perfeito para 2D (linha e coluna juntas).
