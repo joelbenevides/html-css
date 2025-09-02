@@ -398,7 +398,7 @@ Flexbox Froggy (parte 2)
 
 	Respostas dos níveis.
 	
-Aula 18								30/08/25
+MD5-CP28-A01							30/08/25
 
 O que é Grid Layout
 
@@ -413,3 +413,92 @@ O que é Grid Layout
 -	Flexbox é ótimo para 1D (linha ou coluna).
 
 -	Grid é perfeito para 2D (linha e coluna juntas).
+
+Aula 02									02/09/25
+
+Anatomia do Grid
+
+Imagem 1
+
+Grid Container
+
+-	É o elemento pai que recebe display: grid;.
+-	Ele cria uma grade (linhas e colunas) que organiza os elementos filhos.
+
+Grid Item
+
+-	São os elementos filhos diretos do container.
+-	Cada um ocupa uma ou mais células dentro dessa grade.
+
+Imagem 2
+
+Grid Track
+
+-	É o espaço entre duas linhas de grade (grid lines).
+-	Pode ser tanto na horizontal (row track) quanto na vertical (column track).
+
+Row Track
+
+-	É uma trilha horizontal da grade → representa a altura de uma trilha (row).
+
+Column Track
+
+-	É uma trilha vertical da grade → representa a largura de uma trilha (column).
+
+Imagem 3,4
+
+Grid Lines 
+
+-	São as linhas de referência que formam a grade (grid).
+-	Elas aparecem tanto na direção horizontal (row grid lines) quanto na direção vertical (column grid lines).
+-	Cada grid line recebe um número automático, começando em 1.
+
+Na imagem:
+
+-	As grid lines verticais e horizontais estão numeradas de 1 a 7.
+-	Isso permite que você posicione e dimensione grid items com base nesses números.
+
+Imagem 5
+
+Cada grid line pode ser referenciada de duas formas:
+
+-	Números positivos → começam no 1 da esquerda para a direita (ou de cima para baixo).
+-	Números negativos → começam no -1 da direita para a esquerda (ou de baixo para cima).
+-	Isso permite que você defina posições de grid items de forma mais flexível, sem precisar contar todas as grid lines manualmente.
+
+Na horizontal:
+A grid line 2 (positiva, da esquerda para direita).
+A grid line -2 (negativa, da direita para esquerda).
+
+Na vertical:
+A grid line 2 (positiva, da esquerda para direita).
+A grid line 3 (positiva, da esquerda para direita).
+
+Imagem 6
+
+Grid Area
+
+-	É formada pela interseção de grid rows e grid columns.
+-	Ou seja: é o espaço dentro do grid delimitado por 4 grid lines (topo, base, esquerda e direita).
+-	Um grid area pode conter uma única célula ou várias células combinadas.
+
+Na imagem:
+
+-	O grid area mostrado vai da grid line 2 a 5 (vertical) e da grid line 2 a 5 (horizontal).
+-	Isso cria um bloco que ocupa 3 column tracks e 3 row tracks.
+
+Imagem 7,8,9
+
+Grid Gap
+
+-	É o espaço entre os grid items dentro de um grid container.
+-	Ele não afeta as bordas externas do container, apenas o espaço interno entre os itens.
+-	Esse espaço pode ser definido separadamente na direção das colunas (column-gap) e das linhas (row-gap).
+
+Resumindo
+
+-	gap = cria um espaço uniforme entre os grid items.
+-	row-gap = controla apenas o espaço entre row tracks.
+-	column-gap = controla apenas o espaço entre column tracks.
+-	Facilita muito a organização visual, sem precisar usar margens (margin) nos elementos.
+
