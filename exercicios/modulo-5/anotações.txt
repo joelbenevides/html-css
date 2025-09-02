@@ -502,3 +502,15 @@ Resumindo
 -	column-gap = controla apenas o espaço entre column tracks.
 -	Facilita muito a organização visual, sem precisar usar margens (margin) nos elementos.
 
+Aula 03
+
+Propriedades Container
+
+display: grid;
+
+grid-template-columns: determina a largura dos items.
+-	com valor "auto auto", você está dizendo pro css transformar o grid em 2 colunas com tamanhos iguais e para ocuparem todo o container.
+
+grid-template-rows: determina a altura dos items.
+
+grid-gap: cria um espaço uniforme entre os grid items.
