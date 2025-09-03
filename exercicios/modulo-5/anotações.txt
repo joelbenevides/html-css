@@ -542,3 +542,45 @@ CSS Grid Layout na prática (parte 1)
 {red}
 	Em Estilos do DevTools, da para fazer algumas modificações usando a opção ao lado de display: grid;(grid editor).
 {red}
+
+Aula 05
+
+Propriedades de container para Grids (parte 2)
+
+	align-content e align-items são alinhamentos verticais.
+
+	justify-items e justify-content são alinhamentos horizontais.
+	
+align-items e seus valores:
+-	normal: padrão, nesse caso igual o stretch.
+-	stretch: estica o item ocupando toda área horizontal da caixa.
+-	start: alinha os items na parte superior da caixa.
+-	center: centraliza os items verticalmente na caixa.
+-	end: alinha os items na parte inferior da caixa.
+
+justify-items:
+-	normal: padrão, nesse caso igual o stretch.
+-	stretch: estica o item ocupando toda área horizontal da caixa.
+-	start: alinha os items na parte esquerda da caixa.
+-	center: centraliza os items horizontalmente na caixa.
+-	end: alinha os items na parte direita da caixa.
+
+align-content:
+-	normal: padrão, nesse caso igual o start.
+-	start: alinha o conteúdo em cima.
+-	center: centraliza o conteúdo.
+-	end: alinha o conteúdo em baixo.
+-	space-between: o primeiro item ficará colado em cima, o último ficará em baixo e todos os outros ficarão centralizados com um espaço igual entre eles.
+-	space-evenly: os items ficarão alinhados no centro com espaçamentos iguais.	
+-	space-around: divide o espaço do container para a quantidade de items em tamanhos iguais e alinha os items no centro desse tamanho dividido.
+-	stretch: estica o conteúdo ocupando toda área vertical da caixa.
+
+justify-content:
+-	normal: padrão, nesse caso igual o start.
+-	start: alinha o conteúdo na esquerda.
+-	center: centraliza o conteúdo.
+-	end: alinha o conteúdo em direta.
+-	space-between: o primeiro item ficará colado na esquerda, o último ficará na direita e todos os outros ficarão centralizados com um espaço igual entre eles.
+-	space-evenly: os items ficarão alinhados no centro com espaçamentos iguais.	
+-	space-around: divide o espaço do container para a quantidade de items em tamanhos iguais e alinha os items no centro desse tamanho dividido.
+-	stretch: estica o conteúdo ocupando toda área horizontal da caixa.
