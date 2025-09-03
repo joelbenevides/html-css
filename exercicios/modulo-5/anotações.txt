@@ -489,7 +489,7 @@ Na imagem:
 
 Imagem 7,8,9
 
-Grid Gap
+Gap
 
 -	É o espaço entre os grid items dentro de um grid container.
 -	Ele não afeta as bordas externas do container, apenas o espaço interno entre os itens.
@@ -513,4 +513,32 @@ grid-template-columns: determina a largura dos items.
 
 grid-template-rows: determina a altura dos items.
 
-grid-gap: cria um espaço uniforme entre os grid items.
+gap: cria um espaço uniforme entre os grid items.
+
+Aula 04								03/09/25
+ex028/grid01/index.html
+
+CSS Grid Layout na prática (parte 1)
+
+{red}
+	Ao criar uma tag, se colocar ".nome" após a tag ja tem com a classe "nome"
+	Ou se colocar "#nome", a tag vem com id "nome".
+	ex:
+	div.nome ou div#nome
+{red}
+
+{red}
+	Ao criar uma tag e colocar uma classe como foi ensinado acima e colocar um asterísco(*) e um número, a tag será multiplicada pelo número colocado.
+	ex:
+	div.nome*5
+	
+	Será criado 5 divs com classe nome.
+{red}
+
+{red}
+	Usando display grid e a ferramenta DevTools do Google Chrome, tem a opção grid e ao ativar ela mostra visualmente as linhas da grade.
+{red}
+
+{red}
+	Em Estilos do DevTools, da para fazer algumas modificações usando a opção ao lado de display: grid;(grid editor).
+{red}
