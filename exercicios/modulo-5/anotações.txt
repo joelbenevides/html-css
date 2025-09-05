@@ -586,7 +586,35 @@ justify-content:
 -	space-around: divide o espaço do container para a quantidade de items em tamanhos iguais e alinha os items no centro desse tamanho dividido.
 
 Aula 06
+ex028/grid01/index.html
 
 CSS Grid Layout na prática (parte 2)
 
 	Essa aula foi apenas para aprender como funciona as propriedades de alinhamento com pequenos testes no DevTools.
+	
+Aula 07
+
+Propriedades de container para Grids (parte 3)
+
+Adicionando items dentro do grid implícito
+
+grid-auto-rows
+
+	Todas as novas linhas adicionadas ficarão com o valor que for colocado nessa propriedade. Lembrando que o valor padrão é auto.
+
+grid-auto-columns
+
+	Todas as novas colunas adicionadas ficarão com o valor que for colocado nessa propriedade. Lembrando que o valor padrão é auto.
+
+✅ Diferença prática
+
+Grid Explícito → você define manualmente com grid-template-columns e grid-template-rows.
+
+Grid Implícito → o navegador cria automaticamente quando faltam tracks, e você controla o tamanho delas com grid-auto-rows e grid-auto-columns.
+
+
+Shorthands:
+
+-	place-items: align-items+justify-items;
+-	place-content: align-content+justify-content;
+-	grid-template: grid-auto-rows / grid-auto-columns;
