@@ -596,7 +596,7 @@ Aula 07
 
 Propriedades de container para Grids (parte 3)
 
-Adicionando items dentro do grid implícito
+	Adicionando items dentro do grid implícito
 
 grid-auto-rows
 
