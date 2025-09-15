@@ -585,7 +585,7 @@ justify-content:
 -	space-evenly: os items ficarão alinhados no centro com espaçamentos iguais.	
 -	space-around: divide o espaço do container para a quantidade de items em tamanhos iguais e alinha os items no centro desse tamanho dividido.
 
-Aula 06
+Aula 06									05/09/25
 ex028/grid01/index.html
 
 CSS Grid Layout na prática (parte 2)
@@ -618,3 +618,77 @@ Shorthands:
 -	place-items: align-items+justify-items;
 -	place-content: align-content+justify-content;
 -	grid-template: grid-auto-rows / grid-auto-columns;
+
+Aula 08								15/09/25
+
+Propriedades de container para Grids (parte 4)
+
+
+-	Como funciona a função repeat no grid layout?
+
+	A função repeat() no CSS Grid Layout serve para não precisar escrever valores repetidos no grid-template-columns ou grid-template-rows.
+
+repeat(quantidade, tamanho)
+
+quantidade → número de vezes que o valor será repetido.
+tamanho → pode ser qualquer medida válida (px, %, fr, minmax(), etc).
+
+grid-template: 100px 100px auto / auto auto auto;
+
+será substituído por:
+
+grid-template: repeat(2, 100px 100px) auto / repeat(3, auto);
+
+Usando auto-fill ou auto-fit:
+
+css:
+grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+
+📌 Diferença:
+
+auto-fill → preenche o grid com o máximo de colunas possíveis, mesmo que algumas fiquem “vazias”.
+auto-fit → faz os itens se esticarem para ocupar o espaço disponível se sobrar.
+
+
+-	Unidade fracional
+
+📌 Como funciona
+
+-	O fr divide o espaço restante (aquele que sobra depois de descontar margens, gap, tamanhos fixos em px, %, etc).
+
+-	Cada valor em fr representa uma parte proporcional dessa sobra.
+
+🔹 Exemplos práticos
+
+1. Colunas iguais
+css
+grid-template-columns: 1fr 1fr 1fr;
+
+➡️ O espaço disponível é dividido em 3 partes iguais.
+
+
+2. Colunas proporcionais
+grid-template-columns: 1fr 2fr 1fr;
+
+
+➡️ O espaço é dividido em 4 partes:
+
+1ª coluna → 1 parte
+2ª coluna → 2 partes
+3ª coluna → 1 parte
+
+
+3. Combinando px e fr
+grid-template-columns: 200px 1fr 2fr;
+
+
+➡️ Aqui:
+
+1ª coluna → 200px fixos.
+Espaço restante é dividido em 3 partes → 2ª coluna recebe 1 parte, 3ª recebe 2 partes.
+
+✅ Resumindo
+
+fr = fração do espaço disponível.
+Mais simples e flexível que trabalhar só com %.
+Facilita criar layouts proporcionais e responsivos.
