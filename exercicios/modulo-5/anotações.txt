@@ -692,3 +692,19 @@ Espaço restante é dividido em 3 partes → 2ª coluna recebe 1 parte, 3ª rece
 fr = fração do espaço disponível.
 Mais simples e flexível que trabalhar só com %.
 Facilita criar layouts proporcionais e responsivos.
+
+Aula 09								17/09/25
+
+CSS Grid Layout na prática (parte 3)
+
+grid-auto-flow
+
+	Controla como os grid items são posicionados automaticamente dentro do Grid Layout.
+- row (padrão)
+	Os itens são inseridos linha por linha (row track por row track).
+	Preenche primeiro na horizontal, depois “quebra” para a próxima linha.
+- column
+	Os itens são inseridos coluna por coluna (column track por column track).
+	Preenche primeiro na vertical, depois “quebra” para a próxima coluna.
+- row dense ou column dense
+	Funciona como column, mas também tenta compactar os espaços vazios. Tentam otimizar o espaço, preenchendo buracos.
