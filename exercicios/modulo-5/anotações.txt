@@ -708,3 +708,16 @@ grid-auto-flow
 	Preenche primeiro na vertical, depois “quebra” para a próxima coluna.
 - row dense ou column dense
 	Funciona como column, mas também tenta compactar os espaços vazios. Tentam otimizar o espaço, preenchendo buracos.
+	
+Aula 10								17/09/25
+	
+Propriedades de itens para Grids (parte 1)
+	
+Propriedades para criar grid areas
+
+-	grid-row-start
+-	grid-row-end
+-	grid-column-start
+-	grid-column-end
+
+	Para aprender usar, basta ver as anotações da Aula 02 do dia 02/09/25
