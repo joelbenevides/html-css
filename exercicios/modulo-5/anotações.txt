@@ -694,6 +694,8 @@ Mais simples e flexível que trabalhar só com %.
 Facilita criar layouts proporcionais e responsivos.
 
 Aula 09								17/09/25
+ex028\grid02\index.html
+ex028\grid03\index.html
 
 CSS Grid Layout na prática (parte 3)
 
@@ -721,3 +723,11 @@ Propriedades para criar grid areas
 -	grid-column-end
 
 	Para aprender usar, basta ver as anotações da Aula 02 do dia 02/09/25
+	
+Aula 11								23/09/25
+ex028\grid04\index.html
+ex028\grid04\styles.css
+
+CSS Grid Layout na prática (parte 4)
+
+	Colocando em prática grid-rows e grid-columns
