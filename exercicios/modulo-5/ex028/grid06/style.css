@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+body {    
+    background-color: aquamarine;
+}
+
+.conteudo {
+    display: grid;
+    gap: 10px;
+}
+
+header,
+main,
+footer {
+    display: grid;
+    gap: 10px;
+}
+
+section {
+    text-align: center;
+    background-color: yellow;
+}
+
+header {
+    grid-template: 100px 50px / 1fr;
+}
+
+.topo {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.menu {
+    grid-area: 2 / 1 / 3 / 2;
+}
+
+main {
+    grid-template: 400px / 4fr 1fr;
+}
+
+footer {    
+    grid-template: 50px / 1fr;
+    text-align: center;
+    background-color: yellow;
+}
+
