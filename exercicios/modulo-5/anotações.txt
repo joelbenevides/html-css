@@ -731,3 +731,16 @@ ex028\grid04\styles.css
 CSS Grid Layout na prática (parte 4)
 
 	Colocando em prática grid-rows e grid-columns
+	
+Aula 12
+ex028\grid05\index.html
+ex028\grid05\styles.css
+
+Propriedades de itens para Grids (parte 2)
+
+span= expande as linhas, se uma grid area estiver com as linhas 1 á 5, use o grid-...-end span 4, pois começou na linha 1 e pulou 4 linhas até o final.
+
+shorthands:
+-	grid-row: grid-row-start / grid-row-end;
+-	grid-column: grid-column-start / grid-column-end;
+-	grid-area: grid-row-start / rid-column-start / grid-row-end / grid-column-end;
