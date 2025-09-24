@@ -744,3 +744,23 @@ shorthands:
 -	grid-row: grid-row-start / grid-row-end;
 -	grid-column: grid-column-start / grid-column-end;
 -	grid-area: grid-row-start / rid-column-start / grid-row-end / grid-column-end;
+
+
+desafios\d017-solo\index.html
+desafios\d017-solo\styles.css
+
+	Feito o desafio solo.
+
+
+Aula 13							24/09/25
+desafios\d017\index.html
+desafios\d017\styles.css
+
+
+Desafio Criando um Layout de Site com CSS Grid
+
+	Refazendo, percebi que apesar de ter feito funcionar... eu criei grids separados e depois juntei, na aula foi feito tudo junto.
+	
+
+
+	
