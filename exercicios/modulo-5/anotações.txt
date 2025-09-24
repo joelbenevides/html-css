@@ -762,5 +762,11 @@ Desafio Criando um Layout de Site com CSS Grid
 	Refazendo, percebi que apesar de ter feito funcionar... eu criei grids separados e depois juntei, na aula foi feito tudo junto.
 	
 
+Aula 14
 
-	
+Grid Garden (parte 1)
+
+	Usando o site https://cssgridgarden.com/ farei os 28 níveis com exercícios de Grid Layout.
+
+Concluído todos os níveis solo, amanhã assistirei a próxima aula.
+
