@@ -27,6 +27,7 @@ Para usar, basta aplicar:
 
 Agora, o .container se torna um flex container(PAI), e todos os elementos dentro dele se tornam flex items [itens flexíveis(FILHOS)].
 
+
 Aula 02
 ex027/flex002/index.html
 
@@ -56,6 +57,7 @@ column-reverse → coluna invertida.
 
 -	Se o flex-direction for row, o eixo cruzado é vertical; se for column, o cruzado é horizontal.
 
+
 Aula 03								19/08/25
 ex027/flex003/index.html
 
@@ -76,6 +78,7 @@ flex-wrap → controla se os itens quebram de linha:
 {red}
 	Melhor Forma para praticar é ativando o DevTools e mexendo nos valores atravez dele, porque as mudanças são instantaneas.
 {red}
+
 
 Aula 04
 ex027/flex004/index.html
@@ -111,6 +114,7 @@ valores:
 
 -	center: centraliza os items com relação ao cross-axis.
 
+
 Aula 05								21/08/25
 ex027/flex005/index.html
 
@@ -118,6 +122,7 @@ Centralização com Flexbox
 
 	Para centralizar os items no main-axis e cross-axis, basta adicionar o valor center em justify-content e align-items.
 	
+
 
 Aula 06
 ex027/flex006/index.html
@@ -146,6 +151,7 @@ valores:
 {red}
 Todos essas Propriedades até aqui são para o Container PAI.
 {red}
+
 
 Aula 07								26/08/25
 ex027/flex007/index.html
@@ -200,6 +206,7 @@ ex:
 	<div class="item" style="align-self: flex-start;">E</div>
 </div>
 
+
 Aula 08
 ex027/flex009/index.html
 
@@ -215,6 +222,7 @@ valores:
 -	auto: padrão, tamanho é definido através do conteúdo, quanto mais será maior.
 
 -	Pode ser px, %, etc: caso escolha um valor, esse será o valor máximo que terá cada item, porém caso precise ele irá diminuir até onde der, depois disso caso esteja setado como nowrap, ele irá quebrar o conteúdo.
+
 
 Aula 09
 ex027/flex010/index.html
@@ -311,7 +319,7 @@ Item3 (6/8) → perde 112,5px → fica com 37,5px.
 	Um valor maior sempre significa que o item cresce ou encolhe mais em relação aos outros.
 
 	Se o item tiver flex-shrink: 0, ele não diminui nunca, mesmo que os outros precisem encolher mais.
-	
+
 	
 Aula 10							27/08/25
 ex027/flex012/index.html
@@ -345,6 +353,7 @@ Menu com Flexbox (Parte1)
 ex027/flex013-menu_flexbox-solo/index.html
 ex027/flex013-menu_flexbox-solo/style.css
 
+
 Aula 12
 ex027/flex013-menu_flexbox/index.html
 ex027/flex013-menu_flexbox/style.css
@@ -353,11 +362,13 @@ Menu com Flexbox (Parte 2)
 
 Continuando o o mini projeto
 
+
 Aula 13
 ex027/flex013-menu_flexbox/index.html
 ex027/flex013-menu_flexbox/style.css
 
 Menu Concluído!
+
 
 Aula 14									28/08/25
 ex027/flex014-conteudo_flex/index.html
@@ -373,6 +384,7 @@ ex027/flex014-conteudo_flex-solo/index.html
 ex027/flex014-conteudo_flex-solo/style.css
 
 	Concluído o exercicio solo.
+
 	
 Aula 15
 ex027/flex014-conteudo_flex/index.html
@@ -381,6 +393,7 @@ ex027/flex014-conteudo_flex/style.css
 Conteúdo Flexível (Parte 2)
 
 	Concluído o Exercício.
+
 	
 Aula 16								29/08/25
 
@@ -391,12 +404,14 @@ Flexbox Froggy
 https://flexboxfroggy.com/#pt-br
 
 	Concluído os níveis solo.
+
 	
 Aula 17
 
 Flexbox Froggy (parte 2)
 
 	Respostas dos níveis.
+
 	
 MD5-CP28-A01							30/08/25
 
@@ -413,6 +428,7 @@ O que é Grid Layout
 -	Flexbox é ótimo para 1D (linha ou coluna).
 
 -	Grid é perfeito para 2D (linha e coluna juntas).
+
 
 Aula 02									02/09/25
 
@@ -502,6 +518,7 @@ Resumindo
 -	column-gap = controla apenas o espaço entre column tracks.
 -	Facilita muito a organização visual, sem precisar usar margens (margin) nos elementos.
 
+
 Aula 03
 
 Propriedades Container
@@ -514,6 +531,7 @@ grid-template-columns: determina a largura dos items.
 grid-template-rows: determina a altura dos items.
 
 gap: cria um espaço uniforme entre os grid items.
+
 
 Aula 04								03/09/25
 ex028/grid01/index.html
@@ -542,6 +560,7 @@ CSS Grid Layout na prática (parte 1)
 {red}
 	Em Estilos do DevTools, da para fazer algumas modificações usando a opção ao lado de display: grid;(grid editor).
 {red}
+
 
 Aula 05
 
@@ -585,12 +604,14 @@ justify-content:
 -	space-evenly: os items ficarão alinhados no centro com espaçamentos iguais.	
 -	space-around: divide o espaço do container para a quantidade de items em tamanhos iguais e alinha os items no centro desse tamanho dividido.
 
+
 Aula 06									05/09/25
 ex028/grid01/index.html
 
 CSS Grid Layout na prática (parte 2)
 
 	Essa aula foi apenas para aprender como funciona as propriedades de alinhamento com pequenos testes no DevTools.
+
 	
 Aula 07
 
@@ -618,6 +639,7 @@ Shorthands:
 -	place-items: align-items+justify-items;
 -	place-content: align-content+justify-content;
 -	grid-template: grid-auto-rows / grid-auto-columns;
+
 
 Aula 08								15/09/25
 
@@ -693,6 +715,7 @@ fr = fração do espaço disponível.
 Mais simples e flexível que trabalhar só com %.
 Facilita criar layouts proporcionais e responsivos.
 
+
 Aula 09								17/09/25
 ex028\grid02\index.html
 ex028\grid03\index.html
@@ -711,6 +734,7 @@ grid-auto-flow
 - row dense ou column dense
 	Funciona como column, mas também tenta compactar os espaços vazios. Tentam otimizar o espaço, preenchendo buracos.
 	
+	
 Aula 10								17/09/25
 	
 Propriedades de itens para Grids (parte 1)
@@ -724,6 +748,7 @@ Propriedades para criar grid areas
 
 	Para aprender usar, basta ver as anotações da Aula 02 do dia 02/09/25
 	
+	
 Aula 11								23/09/25
 ex028\grid04\index.html
 ex028\grid04\styles.css
@@ -731,6 +756,7 @@ ex028\grid04\styles.css
 CSS Grid Layout na prática (parte 4)
 
 	Colocando em prática grid-rows e grid-columns
+	
 	
 Aula 12
 ex028\grid05\index.html
@@ -770,3 +796,19 @@ Grid Garden (parte 1)
 
 Concluído todos os níveis solo, amanhã assistirei a próxima aula.
 
+
+Aula 15							25/09/25
+
+Grid Garden (parte 2)
+
+	Respostas dos 28 níveis
+	
+	
+MD5-CP29-A01
+
+Apresentação Projeto Final
+	
+
+Aula 02
+
+Pacote Repositório
