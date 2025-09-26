@@ -815,3 +815,8 @@ Pacote Repositório
 
 	Apartir daqui irei criar todo o projeto final sozinho e depois irei refazer junto com o professor.
 	
+Projeto Portfólio - Solo		26/09/25
+
+	Começãndo o projeto, ja fiz a base do html e o início do css com grid layout.
+	
+	
