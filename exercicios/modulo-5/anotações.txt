@@ -816,11 +816,15 @@ Pacote Repositório
 	Apartir daqui irei criar todo o projeto final sozinho e depois irei refazer junto com o professor.
 	
 Projeto Portfólio - Solo		26/09/25
+desafios\modulo-5\d018-solo
 
 	Começãndo o projeto, ja fiz a base do html e o início do css com grid layout.
 	
 	
 Continando o Projeto			29/09/25
+desafios\modulo-5\d018-solo
 
 	Boa parte do HTML concluído e o Grid Layout está feito.
+	
+	Projeto solo concluído as 16:18hrs, amanhã refazer o projeto junto com o profº.
 	

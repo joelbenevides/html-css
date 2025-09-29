@@ -18,7 +18,7 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.4em;
+  font-size: 1.2em;
 }
 
 nav {
@@ -27,18 +27,18 @@ nav {
   background-color: rgb(0, 132, 255);
   color: white;
   text-align: end;
-  height: 40px;
+  height: 50px;
   padding-right: 30px;
 }
 
-nav span {
+nav a {
   margin: auto 0;
   padding-left: 70px;
 }
 
 div#conteudo {
   display: grid;
-  grid-template: 1fr 40px / 1fr;
+  grid-template: 1fr 50px / 1fr;
 }
 
 main {
@@ -46,7 +46,7 @@ main {
   display: grid;
   height: 100%;
   width: 100%;
-  grid-template: 100vh 1fr / 4vw 1fr 4vw;
+  grid-template: 650px 1fr / 4vw 1fr 4vw;
 }
 
 main p {
@@ -59,7 +59,7 @@ section#perfil {
   margin-top: 20px;
 }
 
-section#perfil img {
+section#perfil > img {
   display: block;
   margin: auto;
   height: 250px;
@@ -68,16 +68,21 @@ section#perfil img {
   outline: 7px solid rgb(0, 132, 255);
 }
 
-section#perfil img, p {
-  margin-bottom: 20px;
+section#perfil > img, p {
+  margin-bottom: 10px;
 }
 
-div#i-perfil span {
-
+div#i-perfil {
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 
-.i-casa {
-  background-image: url();
+div#i-perfil > a  > span.icones> img {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  margin: 10px;
 }
 
 section#portfolio {
@@ -110,7 +115,7 @@ footer p {
 
 span.destaque1 {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 2em;
+  font-size: 1.7em;
   font-weight: bold;
   color: rgb(0, 132, 255);
 }
@@ -121,7 +126,7 @@ span.destaque2 {
   font-weight: bold;
 }
 
-@media (orientation: landscape) {
+@media (min-width: 1100px) and (orientation: landscape){
   main {
     display: grid;
     grid-template: 1fr / 4vw 400px 1fr 4vw;
@@ -131,8 +136,7 @@ span.destaque2 {
     position: fixed;
     width: 400px;
     padding: 10px;
-    top: 40px;
-    left: 4vw;
+    margin: 0 0 50px 4vw;
   }
 
   section#portfolio {
