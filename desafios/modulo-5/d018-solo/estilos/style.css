@@ -16,6 +16,11 @@
   --fundo-card
 */
 
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.4em;
+}
+
 nav {
   display: flex;
   justify-content: flex-end;
@@ -41,20 +46,54 @@ main {
   display: grid;
   height: 100%;
   width: 100%;
-  grid-template: 100vh 1fr / 1vw 1fr 1vw;
-  padding: 10px;
+  grid-template: 100vh 1fr / 4vw 1fr 4vw;
+}
+
+main p {
+  line-height: 2em;
 }
 
 section#perfil {
   grid-area: 1 / 2 / 2 / -2 ;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+section#perfil img {
+  display: block;
+  margin: auto;
+  height: 250px;
+  border-radius: 50%;
+  border: 7px solid white;
+  outline: 7px solid rgb(0, 132, 255);
+}
+
+section#perfil img, p {
+  margin-bottom: 20px;
+}
+
+div#i-perfil span {
+
+}
+
+.i-casa {
+  background-image: url();
 }
 
 section#portfolio {
   grid-area: 2 / 2 / 3 / -2;
   margin-bottom: 20px;
+  padding: 10px;
 }
 
-article.portfolio > p {  
+section#portfolio h1 {
+  color: rgb(0, 132, 255);
+  font-size: 2em;
+}
+
+article.portfolio p,
+h1,
+iframe {  
   margin-bottom: 20px;
 }
 
@@ -69,18 +108,31 @@ footer p {
   margin: auto;
 }
 
+span.destaque1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+  color: rgb(0, 132, 255);
+}
+
+span.destaque2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.35em;
+  font-weight: bold;
+}
+
 @media (orientation: landscape) {
   main {
     display: grid;
-    grid-template: 1fr / 1vw 400px 1fr 1vw;
+    grid-template: 1fr / 4vw 400px 1fr 4vw;
   }
 
   section#perfil {
     position: fixed;
     width: 400px;
     padding: 10px;
-    top: 20px;
-    left: 1vw;
+    top: 40px;
+    left: 4vw;
   }
 
   section#portfolio {
