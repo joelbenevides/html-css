@@ -832,3 +832,99 @@ Aula 03							30/09/25
 desafios\modulo-5\d018
 
 Primeiro passo para construir seu portfólio
+
+
+Transformando SVG em XML e editando via código
+
+
+📌 1. O que é um arquivo SVG
+
+	SVG (Scalable Vector Graphics) → é um formato de imagem vetorial baseado em XML.
+
+	Isso significa que, em vez de pixels (como PNG ou JPG), o SVG é escrito como código com tags e atributos (bem parecido com HTML).
+
+	Por ser texto, você pode abrir um .svg em um editor e editar direto no código.
+
+
+📌 2. Como transformar .svg em .xml
+
+	Na prática, não precisa converter.
+
+	Um .svg já é um XML válido.
+
+	O que você pode fazer é abrir o arquivo .svg no Visual Studio Code, ou até salvar como .xml → vai funcionar do mesmo jeito porque a estrutura é XML.
+
+
+📌 3. Como editar SVG com HTML e CSS	
+
+	Quando você coloca o SVG inline no HTML, pode estilizar as partes usando CSS. Criando uma tag <style> dentro do XML e apartir dai editando e depois basta voltar para ".svg" e voltará a ser uma imagem porém agora com as modificações.
+	
+
+📌 4. Modificações mais usadas em SVG (via CSS/HTML)
+🎨 Cores
+
+fill → cor de preenchimento da forma (circle, path, rect, etc).
+
+stroke → cor da borda da forma.
+
+stroke-width → espessura da borda.
+
+Exemplo:
+
+path {
+  fill: blue;
+  stroke: black;
+  stroke-width: 2px;
+}
+
+
+🔄 Transformações
+
+transform: rotate(45deg) → rotaciona.
+
+transform: scale(1.5) → aumenta.
+
+transform: translate(10px, 20px) → move.
+
+
+✨ Efeitos
+
+opacity: 0.5 → deixa transparente.
+
+filter: drop-shadow(2px 2px 5px gray) → adiciona sombra.
+
+filter: blur(3px) → desfoca.
+
+
+🎬 Animações
+
+Você pode animar qualquer propriedade do SVG:
+
+circle {
+  fill: red;
+  transition: fill 0.5s;
+}
+circle:hover {
+  fill: green;
+}
+
+
+📌 5. Diferença entre usar <img src="icone.svg"> e <svg>...</svg>
+
+	Se você usar <img>, o SVG é tratado como uma imagem comum → você não pode editar com CSS interno.
+
+	Se você colocar o SVG inline no HTML (copiando o código <svg>...</svg>), aí sim pode estilizar partes individuais com CSS.
+
+
+✅ Resumindo
+
+	O SVG já é XML → abrir e editar é como mexer em HTML.
+
+	Colocando inline no HTML, você pode alterar:
+	
+	-	Cores: fill, stroke, stroke-width.
+	-	Transformações: scale, rotate, translate.
+	-	Efeitos: opacity, filter (sombra, blur).
+	-	Animações: transition, @keyframes.
+
+	O jeito mais poderoso de trabalhar com SVG é colar o código no HTML, não só usar <img>.
