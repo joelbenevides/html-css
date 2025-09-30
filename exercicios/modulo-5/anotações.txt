@@ -828,6 +828,7 @@ desafios\modulo-5\d018-solo
 	
 	Projeto solo concluído as 16:18hrs, amanhã refazer o projeto junto com o profº.
 	
+	
 Aula 03							30/09/25
 desafios\modulo-5\d018
 
@@ -928,3 +929,9 @@ circle:hover {
 	-	Animações: transition, @keyframes.
 
 	O jeito mais poderoso de trabalhar com SVG é colar o código no HTML, não só usar <img>.
+	
+	
+Aula 04
+desafios\modulo-5\d018
+
+Menu superior do seu portfólio
