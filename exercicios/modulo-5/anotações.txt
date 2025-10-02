@@ -939,7 +939,7 @@ Menu superior do seu portfólio
 	Base do Menu Feita.
 	
 	
-Aula 05
+Aula 05								02/10/25
 desafios\modulo-5\d018
 
 Como adicionar ícones no menu com HTML5 e CSS3
@@ -948,3 +948,65 @@ Como adicionar ícones no menu com HTML5 e CSS3
 https://fontawesome.com/ (precisa de cadastro)
 
 https://heroicons.com/ (sem cadastro)
+
+entre outros.
+
+
+Aula 06
+desafios\modulo-5\d018
+
+Topo Social
+
+
+📌 1. O que é aspect-ratio?
+
+	Define a proporção entre largura e altura de um elemento.
+
+Sintaxe
+aspect-ratio: largura / altura;
+
+🔹 Exemplos
+.box1 {
+  width: 300px;
+  aspect-ratio: 16 / 9; /* largura 16, altura 9 */
+  background: lightblue;
+}
+
+.box2 {
+  height: 200px;
+  aspect-ratio: 1 / 1; /* quadrado perfeito */
+  background: lightgreen;
+}
+
+
+➡️ O navegador calcula automaticamente a outra dimensão para manter a proporção.
+
+📌 2. O que é object-fit
+
+	Controla como o conteúdo de mídia (<img>, <video>, <iframe>, etc.) se ajusta dentro de seu container.
+
+📌 Valores mais usados
+object-fit: fill;       /* padrão → estica para preencher, pode distorcer */
+object-fit: contain;    /* ajusta sem cortar, cabe inteiro dentro do container */
+object-fit: cover;      /* preenche o container, corta se necessário */
+object-fit: none;       /* mantém tamanho original, pode "vazar" do container */
+object-fit: scale-down; /* usa o menor entre none e contain */
+
+🔹 Exemplos
+img.cover {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;   /* a imagem cobre toda a caixa, cortando excesso */
+}
+
+img.contain {
+  width: 300px;
+  height: 200px;
+  object-fit: contain; /* a imagem inteira aparece, mas pode sobrar espaço */
+}
+
+✅ Diferença entre os dois
+
+aspect-ratio → define a proporção da caixa (container do elemento).
+
+object-fit → define como a mídia dentro da caixa se ajusta ao espaço disponível.
