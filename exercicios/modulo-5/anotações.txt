@@ -957,7 +957,6 @@ desafios\modulo-5\d018
 
 Topo Social
 
-
 📌 1. O que é aspect-ratio?
 
 	Define a proporção entre largura e altura de um elemento.
@@ -1010,3 +1009,9 @@ img.contain {
 aspect-ratio → define a proporção da caixa (container do elemento).
 
 object-fit → define como a mídia dentro da caixa se ajusta ao espaço disponível.
+
+
+Aula 07								07/10/25
+desafios\modulo-5\d018
+
+Área Vídeo
