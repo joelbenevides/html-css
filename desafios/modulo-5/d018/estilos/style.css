@@ -185,4 +185,20 @@ article h2 {
   #skill-container {
     grid-template-columns: 1fr 1fr;
   }
+
+  #a1 {order: 1;}
+
+  #a2 {order: 3;}
+
+  #a3 {order: 5;}
+
+  #a4 {order: 7;}
+
+  #a5 {order: 2;}
+
+  #a6 {order: 4;}
+
+  #a7 {order: 6;}
+
+  #a8 {order: 8;}
 }

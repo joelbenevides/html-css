@@ -167,7 +167,7 @@ Propriedade "ORDER"
 ex:
 -3,-1,0,4,5,10
 
-	A melhor forma para configurar o order, é com css inline.
+	A melhor forma para configurar o order, é com css inline ou usando id="nome".
 ex:
 
 <div class="conteiner">
