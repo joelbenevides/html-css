@@ -1017,3 +1017,9 @@ desafios\modulo-5\d018
 Área Vídeo
 
 	Criado a base dos detalhes e feito a área do vídeo totalmente responsivo.
+	
+	
+Aula 08
+desafios\modulo-5\d018
+
+Área Skills Feita
