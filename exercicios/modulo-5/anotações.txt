@@ -1041,3 +1041,11 @@ desafios\modulo-5\d018
 Menu Superior Fixo Feito
 
 Propriedade z-index funciona como camadas, o valor padrão é 0 e quanto mais alto o valor mais a cima ele estará dos demais. Pode usar também valores negativos, quanto mais negativo o valor, mais em baixo ele estará dos demais.
+
+
+Aula 12								20/10/25
+desafios\modulo-5\d018
+
+Responsividade Telas Feita
+
+
